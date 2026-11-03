@@ -1,0 +1,296 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "project_index": 59,
+  "number_ui": false,
+  "boot_page": "EXPR",
+  "pnr_seed": 7,
+  "placer_effort_level": 5,
+  "revision": "BAL64_CLEAN94_Expr105",
+  "frame_pair_lock": "FRAME LIVE only; one complete committed snapshot; background history continues; page/app/new take/reset release",
+  "menu_navigation_hold": "SW2/SW3 after600ms every150ms, clamp, no confirm repeat, no release duplicate and late-chord rollback",
+  "expression_frontend": "existing full-resolution Canny; no legacy Sobel/continuity instance",
+  "expression_defaults": [
+    10,
+    5
+  ],
+  "expression_threshold_bank": "EXPR independent",
+  "expression_red_overlay": "Always ON including recognition OFF; AUX controls boxes only",
+  "style_order": [
+    "ORIG",
+    "BAL",
+    "CLEAN",
+    "RED",
+    "GREY"
+  ],
+  "threshold_presets": {
+    "BAL": [
+      6,
+      4
+    ],
+    "CLEAN": [
+      9,
+      4
+    ],
+    "RED": [
+      8,
+      4
+    ],
+    "SHAPE": [
+      6,
+      3
+    ],
+    "EXPR": [
+      10,
+      5
+    ]
+  },
+  "fps_display": "Fixed nominal display60, not a camera measurement",
+  "setup_relationships": [
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 13.468,
+      "slack_ns": 0.074
+    },
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 6.734,
+      "slack_ns": 2.884
+    },
+    {
+      "launch": "CLK_5M",
+      "capture": "CLK_5M",
+      "constraint_ns": 200.0,
+      "slack_ns": 196.458
+    },
+    {
+      "launch": "i_mipi_rx_pclk",
+      "capture": "i_mipi_rx_pclk",
+      "constraint_ns": 20.0,
+      "slack_ns": 13.143
+    },
+    {
+      "launch": "core_clk",
+      "capture": "core_clk",
+      "constraint_ns": 10.0,
+      "slack_ns": 3.085
+    },
+    {
+      "launch": "core_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.741
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "core_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 1.829
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.275
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 1.137
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.229
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "sdram_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.227
+    },
+    {
+      "launch": "rx_cal_clk",
+      "capture": "rx_cal_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.216
+    },
+    {
+      "launch": "tx_cal_clk",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.38
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 6.734,
+      "slack_ns": 5.483
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 6.734,
+      "slack_ns": 2.651
+    }
+  ],
+  "hold_relationships": [
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.026
+    },
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.128
+    },
+    {
+      "launch": "CLK_5M",
+      "capture": "CLK_5M",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.09
+    },
+    {
+      "launch": "i_mipi_rx_pclk",
+      "capture": "i_mipi_rx_pclk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.026
+    },
+    {
+      "launch": "core_clk",
+      "capture": "core_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.035
+    },
+    {
+      "launch": "core_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.123
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "core_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.077
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.037
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.572
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.542
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "sdram_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.1
+    },
+    {
+      "launch": "rx_cal_clk",
+      "capture": "rx_cal_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.027
+    },
+    {
+      "launch": "tx_cal_clk",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.071
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.085
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.052
+    }
+  ],
+  "detailed_slack_paths": 258,
+  "minimum_detailed_slack_ns": 0.026,
+  "final04_identity": {
+    "ti60f225_oob.sdc": "51f4d5768f8a61341367b917840a3fde28e90cba900c2c82ea60cb02208cbf96",
+    "ti60f225_oob.peri.xml": "d32872db30b1731649423f927114407e7fb4af016cbb3395d5f068b713a429a9",
+    "rtl/edge/canny_stream_2ppc.v": "00c009548b29c770979306397de88ff32b47313607c32bb71077fa337054dd06",
+    "rtl/edge/edge_balanced_render_2ppc.v": "0c4b89c85675b8693ce1f49ba325d37171fdc910c4c7e5407c13a59d75cc9342",
+    "rtl/final/final_shape_overlay.v": "c7efa43e889f91356c0a949927afb395799fd0613d823ca8329ed5d014a1c59b",
+    "rtl/final/pack55.v": "eaf5b86398b417e652fd0d4daa1d06c89fb8af61ff8188f33c667e45f0cc04a9",
+    "rtl/final/reader55.v": "c2f1bfca3224b174a18528fcda95ede29f75971b302dfbe067cd485ffbc7715b",
+    "rtl/final/final_wb55.v": "2b5417d2f805dedb038c42929729a3a4de06c2038d1cfc0b456dcf894580f9e9",
+    "rtl/final/final_font.vh": "c2b7048b657e21ec56e4b8b7264fa80a4953547e3514c5aea88af74d2b1ce672",
+    "rtl/shape/shape_contour_detector.v": "cc475775023e1592daa198a7d6fddc37fafcdc7b04b5d1cf5c7baf84b98d87f9",
+    "rtl/shape/shape_color_overlay.v": "ac740e0f03f08de68445472c17005483fe1251b12ffb0aa63eb03d85730e2fb4",
+    "rtl/wb53/awb_rgbmean_2ppc.v": "c556253e8d131b9cb78cd326f67dcb81b22d55c5aa2ca5163929ffe5646075ae",
+    "rtl/wb24/color_enhance_rgb888.v": "7255fb1d081912da8014f082a77e55f6d34e2bac3983652b0ec6093b57bc4a3e",
+    "rtl/wb24/gaussian_horizontal_2ppc.v": "65d7f3d01940d7df54126e6a5dddfe5736f54ad9a92ae4c024bce7e085c2f26b",
+    "rtl/wb24/gaussian_vertical_sharpen_compact_2ppc.v": "fdad6bd53e794b6b5a5e87733cd6993ed8ee9f056e24e14521fff1311b9234cc",
+    "rtl/cam_i2c_ctrl/i2c/i2c_master_reg_rom.v": "6986be756645ceec6585b45491f6e2262acafa684500094a704ec1e9cea955ee",
+    "rtl/debayer/debayer_top_2to1.v": "b14ca892aa79f121f0dfa2726fd465146b9b0e9840cbcf7e3374668b9e8685f3",
+    "rtl/debayer/raw_to_rgb.v": "a3b1efbfb222585e0761d0261a1756b42cc16c9a6d55d181c6ef1f8d5daf45a0"
+  },
+  "math34_identity": {
+    "rtl/edge/edge_detect_2ppc.v": "3315026589f7440831e2b4ad0b463f8cdf9e4c5f0f47c37c454899fc5f213711",
+    "rtl/number/edge_continuity_2ppc.v": "eb144a74786664cfe95b93f31ba0d425835f53f5b32261577828522778960504",
+    "rtl/number/expression_engine.v": "228697c7c6c5e76314268368a0d6344afb0040cb532450f959a20a58342c9b33",
+    "rtl/number/expression_operator.v": "27dc1924ecc56bb5eee1ed2d67325af25074962e8a90a775704039bf3b97b1e4",
+    "rtl/number/expression_result_filter.v": "405df04d4a303b91b74467e3a2ccb58827190e930de940567338e932d449246b",
+    "rtl/number/number_result_filter.v": "69ef9e34748034d7ce58b01fd23677e2d9314153369e8a8632863ca950fb93fd",
+    "rtl/number/model_config.vh": "68ece5538e5307441c577c1139abb60942a7a6cd9806835e227eeb2ee9d686e5",
+    "model/b1.mem": "8459a3f6dd1a6e4623fc58fcd09652d2bf47b23338b8da7e2420cb52b8d70f10",
+    "model/b2.mem": "2f9b52a8bdf7accade5c18e7a45fd0b8817b22bc472e5969088ff3baf03d1a69",
+    "model/test_inputs.mem": "8dc4eddff396a6edc0a005cdc1aab2dd08090accd2f1915c26504f4755b2970d",
+    "model/test_labels.mem": "39c325e9e9f2069bd9c97c62eaaf19fcd11fa1c320ff6a2430e4d85d80806b63",
+    "model/test_scores.mem": "61e3523eb404020c6a72691c35e0aabc87018dfc535464e542edb41205f0ac03",
+    "model/w1_bank00.mem": "f7619ffd663996e1af4d64f18dc5d1128e0555397533ed4dc7f39014c181ed36",
+    "model/w1_bank01.mem": "7c925c3303bbdb39f40f7b47816059bd4d82a04e75057e17c8a0eaf019227334",
+    "model/w1_bank02.mem": "1069460732d7cb6a012eca55ff245f6c154cb68b677b557d9e7691bc083c79cb",
+    "model/w1_bank03.mem": "883937bcf1b716b7323545f051a70a4bd64b5d2e391639d343e048be8ddfdc6e",
+    "model/w1_bank04.mem": "04f5ea10eb639849fa7ea08360fb6fad34af9e81d115bc70fcf2ca7212e22bc2",
+    "model/w1_bank05.mem": "3eb3076a427d388c0f8ee54f5a47b118aa35827d2bd4f5ac9af9c702ef6fee85",
+    "model/w1_bank06.mem": "e7c5d92242c727122fbf525cbcffc027a164a5a8790065a06400a910adbbfd96",
+    "model/w1_bank07.mem": "89b3f40c2d14b4b5dee9300ad8b23d28ba1243748a03a1f60a98432991d46ee6",
+    "model/w1_bank08.mem": "ced0b74796fc69a748ce624ada76a36a478ed6e50d68398e3f9fb9cc55fbf540",
+    "model/w1_bank09.mem": "be869d8c2554f854e10cc61cc3aef96ff2b049bd07246503e546b1295edcddce",
+    "model/w1_bank10.mem": "f151a40315721f06b2bfeda65cb70475b77c6ff9da055ee4f9d10f0f87290467",
+    "model/w1_bank11.mem": "d4955d1f200011c7a8d4bfd6d5b9b0b5fcb0bca480663fff9727d477db023368",
+    "model/w1_bank12.mem": "d24ecfc059896e4233f6294c6f88f846bad352d553df41fbebb8d1797140a848",
+    "model/w1_bank13.mem": "021b3b05f83e8f122b773eee82225c81fa42fdfe4714ec61cb2947eba4c871e6",
+    "model/w1_bank14.mem": "090f455d65d5714da799d7dce848f798f0f38a70a6a50f5e7f49dc52053476ac",
+    "model/w1_bank15.mem": "da3d54e4b8097f18de9823e02e44f5030be0c339c24ba86d090656b863e5665e",
+    "model/w1_bank16.mem": "51d5d9efa321117313d6020fa22222f6396a38af7f8a872c01d44cf428aaad62",
+    "model/w1_full32.mem": "ef5edec93e930ffb3fee577f32f19eaba1b47b082a7a1e0eae757b874c3d9098",
+    "model/w2.mem": "72fb391a338b4937210441e4cbcc7e4c3ca4b2d16022ada3067251607dff9346"
+  },
+  "verification_baseline_hashes": {
+    "verification/baselines/final04_ui_literal.vh": "4730be20489e9438b196a742c64b3746dd1a53b04157c11abce0136e760171d8",
+    "verification/baselines/menu_final04_literal.vh": "9e946b9b6cfa6d960b68e6c648cb58d3313c4ef81600b76fd49f13e2ca44d9ca",
+    "verification/baselines/recognition56_literal.vh": "56ed5f4c1a877aa9ae7b9028295c824a43455d730f2582439bde3ebc41945ca6"
+  },
+  "original_projects_unchanged": true,
+  "key_first_stage_exact_match": "20 KEY first-stage synchronizer D pins: key_control_inst/key_meta[0]~FF|D key_control_inst/key_meta[1]~FF|D key_control_inst/key_meta[2]~FF|D key_control_inst/key_meta[3]~FF|D",
+  "removed": "Independent NUMBER page and capture/UI shell only; expression MLP retained"
+}

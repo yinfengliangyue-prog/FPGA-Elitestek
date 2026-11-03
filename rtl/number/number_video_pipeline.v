@@ -1,0 +1,172 @@
+module number_video_pipeline #(
+ parameter integer IMG_W=1920,IMG_H=1080,ROI_SIZE=768,
+ parameter integer ROI_X=(IMG_W-ROI_SIZE)/2,ROI_Y=(IMG_H-ROI_SIZE)/2,
+ parameter integer H_TOTAL_BEATS=1066,
+ parameter PANEL_SWAP_RB_ON_EDGE=1'b1,
+ parameter [7:0] DETECT_THRESHOLD_MIN=8'd6,
+ parameter integer MARGIN_MIN=300,STABLE_RESULTS=3,HOLD_ANALYSES=3,
+ parameter integer CROP_PAD_CELLS=1,EXPRESSION_NOISE_FILTER=1,
+ parameter integer CROP_STABILIZE=1,CROP_DEADBAND_CELLS=1,CROP_SHRINK_ANALYSES=3,
+ parameter integer VIDEO_CLK_HZ=74250000,EXPRESSION_WAIT_MS=200,SLIM_OSD=0,EXTERNAL_EDGES=0
+)(
+ input wire clk,rst_n,enable,input wire expression_mode,lock_pulse,input wire [47:0] rgb_in,
+ input wire de_in,valid_in,hs_in,vs_in,input wire [7:0] threshold_in,
+ input wire [15:0] external_edge_bits,
+ output wire [47:0] rgb_out,output wire de_out,valid_out,hs_out,vs_out,
+ output wire [3:0] ui_digit,output wire [783:0] ui_preview,output wire [32:0] ui_box,
+ output wire [255:0] ui_expr_text,output wire [159:0] ui_expr_boxes,output wire [2:0] ui_expr_count,output wire ui_expr_holding,ui_expr_ready,
+ output wire enabled_frame,detected_frame,ui_expression_locked
+);
+ localparam [23:0] EDGE_COLOR=PANEL_SWAP_RB_ON_EDGE?24'h0000ff:24'hff0000;
+ wire [47:0] orig,raw_orig,red_edges;wire [15:0] edgev,detect_edgev,raw_edgev,raw_detect_edgev;
+ wire raw_de,raw_valid,raw_hs,raw_vs;
+ wire edge_de,edge_valid,edge_hs,edge_vs;
+ // The integrated EXPR path consumes the existing Canny stream directly.
+ // Keeping the legacy branch permits independent reference regression only;
+ // EXTERNAL_EDGES=1 removes its Sobel and continuity line buffers at synthesis.
+ generate if(EXTERNAL_EDGES)begin: shared_canny
+ assign orig=rgb_in;assign edgev=external_edge_bits;assign detect_edgev=external_edge_bits;
+ assign {edge_de,edge_valid,edge_hs,edge_vs}={de_in,valid_in,hs_in,vs_in};
+ end else begin: legacy_sobel
+ edge_detect_2ppc #(.IMG_W(IMG_W),.IMG_H(IMG_H),.H_TOTAL_BEATS(H_TOTAL_BEATS),.STRONG_THRESHOLD_MIN(DETECT_THRESHOLD_MIN)) core(
+ .clk(clk),.rst_n(rst_n),.rgb_x2_in(rgb_in),.de_in(de_in),.valid_in(valid_in),
+ .hsync_in(hs_in),.vsync_in(vs_in),.threshold_in(threshold_in),
+ .edge_x2_out(raw_edgev),.strong_edge_x2_out(raw_detect_edgev),.rgb_x2_orig_out(raw_orig),.de_out(raw_de),.valid_out(raw_valid),.hsync_out(raw_hs),.vsync_out(raw_vs));
+ edge_continuity_2ppc #(.IMG_W(IMG_W),.IMG_H(IMG_H),.H_TOTAL_BEATS(H_TOTAL_BEATS)) continuity(
+ .clk(clk),.rst_n(rst_n),.rgb_x2_in(raw_orig),.de_in(raw_de),.valid_in(raw_valid),.hsync_in(raw_hs),.vsync_in(raw_vs),
+ .display_in(raw_edgev),.strong_in(raw_detect_edgev),.edge_x2_out(edgev),.strong_edge_x2_out(detect_edgev),.rgb_x2_orig_out(orig),
+ .de_out(edge_de),.valid_out(edge_valid),.hsync_out(edge_hs),.vsync_out(edge_vs));
+ end endgenerate
+ assign red_edges={detect_edgev[15:8]==255?EDGE_COLOR:orig[47:24],detect_edgev[7:0]==255?EDGE_COLOR:orig[23:0]};
+ wire we,bit_in,start,empty,nn_busy,nn_done,pre_busy;
+ wire sequence_start,sequence_done;wire [2:0] token_index,token_count;
+ wire [7:0] noise_rejected;wire [5:0] candidate_count;wire [3:0] reject_reason;
+ reg [7:0] diag_noise;reg [5:0] diag_candidates;reg [3:0] diag_reason;
+ reg [2:0] diag_tokens;
+ wire [159:0] sampling_boxes;reg [159:0] expr_sampling_boxes;
+ reg expression_frame;
+ wire mode_same=expression_frame==expression_mode;
+ wire expr_pending,expr_locked,expr_confirmed_frame,expr_busy;
+ wire analysis_reset_n=rst_n&&enable&&mode_same&&!expr_locked;
+ wire prep_enable=enable&&mode_same&&!expr_locked;
+ wire expr_done,expr_valid,expr_zero,expr_negative;wire [39:0] expr_tokens;wire [159:0] expr_boxes;wire [2:0] expr_count;
+ wire [13:0] expr_magnitude;wire [6:0] expr_remainder;wire [3:0] expr_op,operator_symbol;
+ wire expr_updated,expr_confirmed;wire [47:0] expr_rgb,number_rgb;
+ wire selection_valid;wire [7:0] sel_x0,sel_x1,sel_y0,sel_y1;
+ reg box_valid;reg [7:0] box_x0,box_x1,box_y0,box_y1;
+ reg pending_box_valid;reg [7:0] pending_x0,pending_x1,pending_y0,pending_y1;
+ reg context_valid;reg [7:0] context_x0,context_x1,context_y0,context_y1;
+ // Do not transfer votes between spatially distinct targets.
+ wire same_context=context_valid&&sel_x0<=context_x1&&context_x0<=sel_x1&&sel_y0<=context_y1&&context_y0<=sel_y1&&
+  ({1'b0,sel_x0}+9'd8>={1'b0,context_x0})&&({1'b0,context_x0}+9'd8>={1'b0,sel_x0})&&
+  ({1'b0,sel_y0}+9'd8>={1'b0,context_y0})&&({1'b0,context_y0}+9'd8>={1'b0,sel_y0})&&
+  ({1'b0,sel_x1}+9'd8>={1'b0,context_x1})&&({1'b0,context_x1}+9'd8>={1'b0,sel_x1})&&
+  ({1'b0,sel_y1}+9'd8>={1'b0,context_y1})&&({1'b0,context_y1}+9'd8>={1'b0,sel_y1});
+ wire [9:0] addr;wire [3:0] number;wire signed [31:0] margin;
+ reg pending;reg [3:0] result,pending_result;
+ wire filtered_update;wire [3:0] filtered_result;
+ reg [783:0] preview0,preview1;reg front;
+ reg vs_d,de_d,on_frame;reg [11:0] x,y;
+ wire sof=vs_d&&!edge_vs;wire [11:0] px=de_d?x:12'd0;
+ assign ui_digit=result;assign ui_preview=front?preview1:preview0;assign ui_box={box_valid,box_x0,box_x1,box_y0,box_y1};assign ui_expr_ready=expr_confirmed_frame;
+ number_preprocess #(.IMG_W(IMG_W),.IMG_H(IMG_H),.ROI_SIZE(ROI_SIZE),.ROI_X(ROI_X),.ROI_Y(ROI_Y),.CROP_PAD_CELLS(CROP_PAD_CELLS),.EXPRESSION_NOISE_FILTER(EXPRESSION_NOISE_FILTER),.CROP_STABILIZE(CROP_STABILIZE),.CROP_DEADBAND_CELLS(CROP_DEADBAND_CELLS),.CROP_SHRINK_ANALYSES(CROP_SHRINK_ANALYSES)) prep(
+  .clk(clk),.rst_n(analysis_reset_n),.enable(prep_enable),.expression_enable(expression_frame),.edge_bits(detect_edgev),.de(edge_de),.valid(edge_valid),.vs(edge_vs),
+  .inference_busy(nn_busy|pending|expr_pending|expr_busy),.pixel_we(we),.pixel_addr(addr),.pixel_bit(bit_in),.start(start),.empty(empty),.sequence_start(sequence_start),.sequence_done(sequence_done),.token_index(token_index),.token_count(token_count),.busy(pre_busy),.selection_valid(selection_valid),.overflow(),.selected_xmin(sel_x0),.selected_xmax(sel_x1),.selected_ymin(sel_y0),.selected_ymax(sel_y1),.noise_rejected(noise_rejected),.candidate_count(candidate_count),.reject_reason(reject_reason),.sampling_boxes(sampling_boxes));
+ // Snapshot diagnostics with a whole analysis, never with an intermediate crop.
+ always @(posedge clk)begin
+  if(!rst_n)begin diag_noise<=0;diag_candidates<=0;diag_reason<=0;diag_tokens<=0;expr_sampling_boxes<=0;end
+  else if(enable&&expression_frame&&(empty||sequence_done))begin
+   diag_noise<=noise_rejected;diag_candidates<=candidate_count;
+   diag_reason<=reject_reason;diag_tokens<=empty?3'd0:token_count;
+   if(sequence_done)expr_sampling_boxes<=sampling_boxes;
+  end
+ end
+ number_mlp mlp(.clk(clk),.rst_n(analysis_reset_n),.pixel_we(we),.pixel_addr(addr),.pixel_bit(bit_in),.start(start),
+  .busy(nn_busy),.done(nn_done),.digit(number),.margin(margin),.score_valid(),.score_class(),.score_value());
+ number_result_filter #(.MARGIN_MIN(MARGIN_MIN),.STABLE_RESULTS(STABLE_RESULTS),.HOLD_ANALYSES(HOLD_ANALYSES)) result_filter(
+  .clk(clk),.rst_n(analysis_reset_n&&!(start&&!same_context)),.enable(enable&&!expression_frame),.observation(nn_done),.blank(empty),.digit(number),.margin(margin),.updated(filtered_update),.result(filtered_result));
+ assign de_out=edge_de;assign valid_out=edge_valid;assign hs_out=edge_hs;assign vs_out=edge_vs;
+ assign ui_expression_locked=expr_locked;
+ assign enabled_frame=on_frame;assign detected_frame=on_frame&&(expression_frame?expr_confirmed_frame:result<10);
+ always @(posedge clk)begin
+  if(!rst_n)begin expression_frame<=0;box_valid<=0;box_x0<=0;box_x1<=0;box_y0<=0;box_y1<=0;pending_box_valid<=0;pending_x0<=0;pending_x1<=0;pending_y0<=0;pending_y1<=0;context_valid<=0;context_x0<=0;context_x1<=0;context_y0<=0;context_y1<=0;pending<=0;result<=15;pending_result<=15;front<=0;preview0<=0;preview1<=0;vs_d<=0;de_d<=0;on_frame<=0;x<=0;y<=0;end
+  else begin
+   vs_d<=edge_vs;de_d<=edge_de;
+   if(we)begin if(front)preview0[addr]<=bit_in;else preview1[addr]<=bit_in;end
+   if(start)begin context_valid<=selection_valid;context_x0<=sel_x0;context_x1<=sel_x1;context_y0<=sel_y0;context_y1<=sel_y1;end
+   if(empty||!enable)context_valid<=0;
+   if(filtered_update&&enable&&!expression_frame)begin
+    pending<=1;
+    // A held historical label must not annotate a conflicting new crop.
+    pending_result<=!empty&&selection_valid&&margin>=MARGIN_MIN&&filtered_result==number?filtered_result:4'd15;
+    pending_box_valid<=selection_valid;
+    pending_x0<=sel_x0;pending_x1<=sel_x1;pending_y0<=sel_y0;pending_y1<=sel_y1;
+   end
+   if(empty)begin if(front)preview0<=0;else preview1<=0;end
+   if(sof)begin
+    x<=0;y<=0;on_frame<=enable;expression_frame<=expression_mode;
+    if(!enable||!mode_same||expression_frame)begin result<=15;pending<=0;box_valid<=0;end
+    else if(pending)begin result<=pending_result;front<=!front;pending<=0;box_valid<=pending_box_valid;box_x0<=pending_x0;box_x1<=pending_x1;box_y0<=pending_y0;box_y1<=pending_y1;end
+   end else if(edge_de&&edge_valid)x<=px+2;
+   else if(de_d&&!edge_de)begin x<=0;y<=y+1'b1;end
+  end
+ end
+ function [34:0] glyph;
+  input [7:0] c;
+  begin case(c)
+   "0":glyph=35'b01110_10001_10011_10101_11001_10001_01110;
+   "1":glyph=35'b00100_01100_00100_00100_00100_00100_01110;
+   "2":glyph=35'b01110_10001_00001_00010_00100_01000_11111;
+   "3":glyph=35'b11110_00001_00001_01110_00001_00001_11110;
+   "4":glyph=35'b00010_00110_01010_10010_11111_00010_00010;
+   "5":glyph=35'b11111_10000_10000_11110_00001_00001_11110;
+   "6":glyph=35'b01110_10000_10000_11110_10001_10001_01110;
+   "7":glyph=35'b11111_00001_00010_00100_01000_01000_01000;
+   "8":glyph=35'b01110_10001_10001_01110_10001_10001_01110;
+   "9":glyph=35'b01110_10001_10001_01111_00001_00001_01110;
+   "N":glyph=35'b10001_11001_11001_10101_10011_10011_10001;
+   "U":glyph=35'b10001_10001_10001_10001_10001_10001_01110;
+   "M":glyph=35'b10001_11011_10101_10101_10001_10001_10001;
+   "B":glyph=35'b11110_10001_10001_11110_10001_10001_11110;
+   "E":glyph=35'b11111_10000_10000_11110_10000_10000_11111;
+   "R":glyph=35'b11110_10001_10001_11110_10100_10010_10001;
+   "O":glyph=35'b01110_10001_10001_10001_10001_10001_01110;
+   "F":glyph=35'b11111_10000_10000_11110_10000_10000_10000;
+   "?":glyph=35'b01110_10001_00001_00010_00100_00000_00100;
+   default:glyph=0;
+  endcase end
+ endfunction
+ function [23:0] paint;
+  input [23:0] p;input [11:0] xx,yy;
+  reg [63:0] text;reg [34:0] bits;integer tx,ty,ci,cc,pi;
+  begin
+   paint=p;text=on_frame?{"NUMBER ",result<10?(8'd48+{4'd0,result}):8'd63}:"OFF     ";bits=0;tx=0;ty=0;ci=0;cc=0;pi=0;
+   if(edge_de&&edge_valid)begin
+    if(on_frame&&xx>=ROI_X&&xx<ROI_X+ROI_SIZE&&yy>=ROI_Y&&yy<ROI_Y+ROI_SIZE&&
+     (xx<ROI_X+2||xx>=ROI_X+ROI_SIZE-2||yy<ROI_Y+2||yy>=ROI_Y+ROI_SIZE-2))paint=24'hffffff;
+    if(on_frame&&((xx>=ROI_X+ROI_SIZE/2-8&&xx<ROI_X+ROI_SIZE/2+8&&yy==ROI_Y+ROI_SIZE/2)||
+     (yy>=ROI_Y+ROI_SIZE/2-8&&yy<ROI_Y+ROI_SIZE/2+8&&xx==ROI_X+ROI_SIZE/2)))paint=24'hffffff;
+    if(on_frame&&box_valid&&xx>=ROI_X+box_x0*4&&xx<ROI_X+(box_x1+1)*4&&yy>=ROI_Y+box_y0*4&&yy<ROI_Y+(box_y1+1)*4&&
+     (xx<ROI_X+box_x0*4+2||xx>=ROI_X+(box_x1+1)*4-2||yy<ROI_Y+box_y0*4+2||yy>=ROI_Y+(box_y1+1)*4-2))paint=result<10?24'h00ff00:(PANEL_SWAP_RB_ON_EDGE?24'h00ffff:24'hffff00);
+    if(on_frame&&xx>=32&&xx<144&&yy>=(SLIM_OSD?220:96)&&yy<(SLIM_OSD?332:208))begin
+     pi=((yy-(SLIM_OSD?220:96))/4)*28+(xx-32)/4;paint=(front?preview1[pi]:preview0[pi])?24'hffffff:24'h000000;
+    end
+    if((!SLIM_OSD||on_frame)&&xx>=32&&xx<224&&yy>=(SLIM_OSD?180:32)&&yy<(SLIM_OSD?212:64))begin
+     tx=(xx-32)/4;ty=(yy-(SLIM_OSD?180:32))/4;ci=tx/6;cc=tx%6;bits=glyph(text[63-ci*8 -:8]);
+     paint=(ty<7&&cc<5&&bits[34-ty*5-cc])?24'hffffff:24'h000000;
+    end
+   end
+  end
+ endfunction
+ assign number_rgb={paint(red_edges[47:24],px+12'd1,y),paint(red_edges[23:0],px,y)};
+expression_operator #(.PADDED_INPUT(CROP_PAD_CELLS>0)) op_classifier(.clk(clk),.rst_n(analysis_reset_n),.pixel_we(we),.pixel_addr(addr),.pixel_bit(bit_in),.x0(sel_x0),.x1(sel_x1),.y0(sel_y0),.y1(sel_y1),.symbol(operator_symbol));
+ expression_engine #(.MARGIN_MIN(MARGIN_MIN)) expression_calc(
+ .clk(clk),.rst_n(analysis_reset_n),.enable(enable&&expression_frame),.sequence_start(sequence_start),.sequence_done(sequence_done),.blank(empty),.token_start(start),.nn_done(nn_done),
+ .token_index(token_index),.token_count(token_count),.digit(number),.operator_symbol(operator_symbol),.margin(margin),.x0(sel_x0),.x1(sel_x1),.y0(sel_y0),.y1(sel_y1),
+ .busy(expr_busy),.done(expr_done),.valid(expr_valid),.divide_zero(expr_zero),.negative(expr_negative),.tokens(expr_tokens),.boxes(expr_boxes),.count(expr_count),.magnitude(expr_magnitude),.remainder(expr_remainder),.operation(expr_op));
+ expression_result_filter expression_filter(.clk(clk),.rst_n(analysis_reset_n),.enable(enable&&expression_frame),.observation(expr_done),.valid(expr_valid),.tokens(expr_tokens),.boxes(expr_boxes),.count(expr_count),.updated(expr_updated),.confirmed(expr_confirmed));
+ expression_overlay #(.ROI_X(ROI_X),.ROI_Y(ROI_Y),.ROI_SIZE(ROI_SIZE),.PANEL_SWAP_RB(PANEL_SWAP_RB_ON_EDGE),.CLK_HZ(VIDEO_CLK_HZ),.WAIT_MS(EXPRESSION_WAIT_MS),.SLIM_OSD(SLIM_OSD)) expression_hud(
+ .clk(clk),.rst_n(rst_n),.enable(on_frame&&expression_frame),.sof(sof),.de(edge_de),.valid(edge_valid),.px(px),.y(y),.rgb_in(red_edges),
+ .update(expr_updated),.confirmed(expr_confirmed),.candidate_valid(expr_valid),.tokens(expr_tokens),.boxes(CROP_STABILIZE?expr_sampling_boxes:expr_boxes),.count(expr_count),.magnitude(expr_magnitude),.remainder(expr_remainder),.negative(expr_negative),.divide_zero(expr_zero),.operation(expr_op),.lock_pulse(lock_pulse),.diag_noise(diag_noise),.diag_candidates(diag_candidates),.diag_tokens(diag_tokens),.diag_reason(!expr_valid&&diag_reason==0?4'd6:diag_reason),.pending(expr_pending),.locked(expr_locked),.confirmed_frame(expr_confirmed_frame),.rgb_out(expr_rgb),.ui_text(ui_expr_text),.ui_boxes(ui_expr_boxes),.ui_count(ui_expr_count),.ui_holding(ui_expr_holding));
+ assign rgb_out=expression_frame?expr_rgb:number_rgb;
+endmodule

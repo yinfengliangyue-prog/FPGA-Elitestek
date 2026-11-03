@@ -1,0 +1,12 @@
+# do {E:\ELEGtools\xianshu_FPGA\HDMI_Recognition\FINAL06_HDMI_Expression_System\verification\packwide55_small_final06_core.do}
+# vsim -onfinish exit work.tb_packwide55 
+# Start time: 11:13:06 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_packwide55
+# Loading work.canny_delay
+# Loading work.pack55
+# PASS PACK55_32BIT W=1920 H=32 frames=6 quarter_pixels=92160 max_queued=1940 independent NMS/accepted/BAL/CLEAN, annotations and frame overlap
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/HDMI_Recognition/FINAL06_HDMI_Expression_System/verification/tb_packwide55.sv(30)
+#    Time: 2586280 ns  Iteration: 1  Instance: /tb_packwide55
+# End time: 11:13:10 on Nov 01,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0

@@ -1,0 +1,12 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\pack55_small_pairlock_core2.do}
+# vsim -onfinish exit work.tb_pack55 
+# Start time: 15:02:21 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_pack55
+# Loading work.canny_delay
+# Loading work.pack55
+# PASS PACK55_32BIT W=96 H=64 frames=4 quarter_pixels=6144 max_queued=116 independent NMS/accepted/BAL/CLEAN, annotations and frame overlap
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_pack55.sv(30)
+#    Time: 184960 ns  Iteration: 1  Instance: /tb_pack55
+# End time: 15:02:21 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

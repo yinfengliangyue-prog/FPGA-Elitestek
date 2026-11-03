@@ -1,0 +1,477 @@
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : High utilization design detected; tuning for routability.
+WARNING  : Timer cuts a combinational loop at the edge from i672:in[0] to i672:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i672:in[0] to i672:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i652:in[0] to i652:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i652:in[0] to i652:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i682:in[0] to i682:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i682:in[0] to i682:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i782:in[0] to i782:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i782:in[0] to i782:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i772:in[0] to i772:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i772:in[0] to i772:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i762:in[0] to i762:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i762:in[0] to i762:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i752:in[0] to i752:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i752:in[0] to i752:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i742:in[0] to i742:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i742:in[0] to i742:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i732:in[0] to i732:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i732:in[0] to i732:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i722:in[0] to i722:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i722:in[0] to i722:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i712:in[0] to i712:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i712:in[0] to i712:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i702:in[0] to i702:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i702:in[0] to i702:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i692:in[0] to i692:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i692:in[0] to i692:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i792:in[0] to i792:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i792:in[0] to i792:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i802:in[0] to i802:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i802:in[0] to i802:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i812:in[0] to i812:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i812:in[0] to i812:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i822:in[0] to i822:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i822:in[0] to i822:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i832:in[0] to i832:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i832:in[0] to i832:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i602:in[0] to i602:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i602:in[0] to i602:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i612:in[0] to i612:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i612:in[0] to i612:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i622:in[0] to i622:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i622:in[0] to i622:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i632:in[0] to i632:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i632:in[0] to i632:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i642:in[0] to i642:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i642:in[0] to i642:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i662:in[0] to i662:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i662:in[0] to i662:out [TimerMsg::CombinationalLoopDetected]
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 12 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 1.53% (from 3459ps to 3406ps)
+INFO     : CSS improved CPD of clock vid_clk_dvi2 by 0.96% (from 13280ps to 13153ps)
+INFO     : CSS improved CPD of clock CLK_5M by 0.00% (from 2631ps to 2631ps)
+INFO     : CSS improved CPD of clock i_mipi_rx_pclk by 0.00% (from 5475ps to 5475ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 6216ps to 6216ps)
+INFO     : CSS improved CPD of clock tx_cal_clk_90edge by 0.00% (from 2041ps to 2041ps)
+INFO     : CSS improved CPD of clock sdram_clk by 0.00% (from 2128ps to 2128ps)
+INFO     : CSS improved CPD of clock rx_cal_clk by 5.57% (from 2280ps to 2153ps)
+INFO     : CSS improved CPD of clock tx_cal_clk by 0.00% (from 1993ps to 1993ps)
+INFO     : CSS improved CPD of clock hdmi_tx_slow_clk by -1.82% (from 3022ps to 3077ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.55% (from 3459ps to 3440ps in 5 iterations and 0.8 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 639 synchronizer-related pins
+INFO     : Iter  1: overlap=193835  heapops=16528392   (0%) cpd=13153 frr=1.00  msec=4447
+INFO     : [Setup Delay Budgets | 965.0 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:  19567875
+INFO     : Hold fix wire delay:       1015
+INFO     : Hold fix delay ratio:     0.01%
+INFO     : Pins requiring hold fix:  0.01%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=99777   heapops=14766526   (16%) cpd=13134 frr=1.00  msec=2120
+INFO     : Iter  3: overlap=77001   heapops=14781809   (23%) cpd=13132 frr=1.00  msec=2123
+INFO     : Iter  4: overlap=62212   heapops=14938416   (30%) cpd=13132 frr=1.00  msec=2165
+INFO     : Iter  5: overlap=50919   heapops=14945576   (36%) cpd=13137 frr=1.00  msec=2262
+INFO     : Iter  6: overlap=41292   heapops=14885866   (42%) cpd=13137 frr=1.00  msec=2255
+INFO     : Iter  7: overlap=32530   heapops=14380415   (48%) cpd=13139 frr=1.00  msec=2335
+INFO     : Iter  8: overlap=25392   heapops=13761223   (54%) cpd=13138 frr=1.00  msec=2294
+INFO     : Iter  9: overlap=19388   heapops=12943123   (61%) cpd=13138 frr=1.00  msec=2196
+INFO     : Iter 10: overlap=14624   heapops=12405704   (66%) cpd=13138 frr=1.00  msec=2126
+INFO     : Iter 11: overlap=10833   heapops=11410000   (71%) cpd=13137 frr=1.00  msec=2114
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 12: overlap=7399    heapops=10324740   (76%) cpd=13138 frr=1.00  msec=2218
+INFO     : Iter 13: overlap=5207    heapops=9643598    (80%) cpd=13158 frr=1.00  msec=2635
+INFO     : Iter 14: overlap=3348    heapops=8419345    (84%) cpd=13139 frr=1.00  msec=2541
+INFO     : Iter 15: overlap=2320    heapops=7882090    (86%) cpd=13170 frr=1.00  msec=2634
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 16: overlap=1552    heapops=7713581    (88%) cpd=13171 frr=1.00  msec=2963
+INFO     : Iter 17: overlap=1016    heapops=7701387    (89%) cpd=13178 frr=1.00  msec=3033
+INFO     : Iter 18: overlap=707     heapops=5837726    (90%) cpd=13178 frr=1.00  msec=2480
+INFO     : Iter 19: overlap=521     heapops=5407636    (90%) cpd=13178 frr=1.00  msec=2382
+INFO     : Iter 20: overlap=375     heapops=4573786    (91%) cpd=13178 frr=1.00  msec=2120
+INFO     : Iter 21: overlap=253     heapops=4013444    (91%) cpd=13178 frr=1.00  msec=1815
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 22: overlap=161     heapops=3042358    (91%) cpd=13178 frr=1.00  msec=1593
+INFO     : Iter 23: overlap=120     heapops=2252608    (91%) cpd=13329 frr=1.01  msec=1139
+INFO     : Iter 24: overlap=92      heapops=1802108    (91%) cpd=13273 frr=1.01  msec=959
+INFO     : Iter 25: overlap=57      heapops=1873990    (91%) cpd=13221 frr=1.01  msec=976
+INFO     : Iter 26: overlap=35      heapops=1395209    (91%) cpd=13221 frr=1.01  msec=828
+INFO     : Iter 27: overlap=22      heapops=982743     (91%) cpd=13370 frr=1.02  msec=706
+INFO     : Iter 28: overlap=26      heapops=705672     (91%) cpd=13352 frr=1.02  msec=559
+INFO     : Iter 29: overlap=13      heapops=481699     (91%) cpd=13268 frr=1.01  msec=459
+INFO     : Iter 30: overlap=12      heapops=258748     (91%) cpd=13335 frr=1.01  msec=373
+INFO     : Iter 31: overlap=7       heapops=595499     (91%) cpd=13378 frr=1.02  msec=504
+INFO     : Iter 32: overlap=6       heapops=499027     (91%) cpd=13405 frr=1.02  msec=478
+INFO     : Iter 33: overlap=6       heapops=249773     (91%) cpd=13424 frr=1.02  msec=362
+INFO     : Iter 34: overlap=2       heapops=243088     (91%) cpd=13268 frr=1.01  msec=369
+INFO     : Iter 35: overlap=2       heapops=228678     (91%) cpd=13268 frr=1.01  msec=359
+INFO     : Iter 36: overlap=1       heapops=224169     (91%) cpd=13268 frr=1.01  msec=356
+INFO     : Iter 37: overlap=2       heapops=223948     (91%) cpd=13268 frr=1.01  msec=355
+INFO     : Iter 38: overlap=2       heapops=259356     (91%) cpd=13392 frr=1.02  msec=375
+INFO     : Iter 39: overlap=2       heapops=225927     (91%) cpd=13369 frr=1.02  msec=368
+INFO     : Iter 40: overlap=2       heapops=239704     (91%) cpd=13268 frr=1.01  msec=383
+INFO     : Iter 41: overlap=1       heapops=241395     (91%) cpd=13268 frr=1.01  msec=369
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 3783ps to 3783ps)
+INFO     : CSS improved CPD of clock vid_clk_dvi2 by 0.00% (from 13268ps to 13268ps)
+INFO     : CSS improved CPD of clock CLK_5M by 0.00% (from 3416ps to 3416ps)
+INFO     : CSS improved CPD of clock i_mipi_rx_pclk by 0.00% (from 6731ps to 6731ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 6789ps to 6789ps)
+INFO     : CSS improved CPD of clock tx_cal_clk_90edge by 0.00% (from 2099ps to 2099ps)
+INFO     : CSS improved CPD of clock sdram_clk by 0.00% (from 2147ps to 2147ps)
+INFO     : CSS improved CPD of clock rx_cal_clk by 0.00% (from 2158ps to 2158ps)
+INFO     : CSS improved CPD of clock tx_cal_clk by 0.00% (from 1994ps to 1994ps)
+INFO     : CSS improved CPD of clock hdmi_tx_slow_clk by 0.00% (from 3957ps to 3957ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.00% (from 3783ps to 3783ps in 1 iterations and 0.9 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 42: overlap=0       heapops=243082     (91%) cpd=13268 frr=1.01  msec=1286
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 66.10 seconds taking 42 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 13.153 ns 
+INFO     : Last iteration critical path delay  = 13.268 ns (ratio = 1.01)
+INFO     : Max Routing Heap Size = 100,006
+INFO     : Routing trace written to file 'outflow\ti60f225_oob.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 79.2110064 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 223.890625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 179.604 MB, end = 597.436 MB, delta = 417.832 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 615.436 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 200.96 MB, end = 603.256 MB, delta = 402.296 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 611.076 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : No ports matched 'pll_inst4_CLKOUT0'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:9] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:9] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_txc_sclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:12] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:12] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_txd_sclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:13] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:13] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:22] No valid object(s) found for 'axi_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:22] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:22] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:23] No valid object(s) found for 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:27] No clocks matched 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:27] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:27] set_clock_groups: Cannot set clock group when only one non-empty group remains
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:27] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:28] No clocks matched 'axi_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:28] set_clock_groups: No valid clock(s) found for -group 'axi_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:28] No clocks matched 'i_mipi_tx_pclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:28] set_clock_groups: No valid clock(s) found for -group 'i_mipi_tx_pclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:29] No clocks matched 'i_mipi_tx_pclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:29] set_clock_groups: No valid clock(s) found for -group 'i_mipi_tx_pclk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:29] set_clock_groups: Cannot set clock group when only one non-empty group remains
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:29] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:58] No valid pin(s) found for clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:58] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:59] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:59] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:59] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:60] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:60] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:60] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_CAPTURE'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:61] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:61] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:61] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_CAPTURE'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:62] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:62] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:62] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:63] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:63] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:63] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:64] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:64] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:64] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_SEL'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:65] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:65] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:65] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_SEL'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:66] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:66] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:67] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:67] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:68] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_SHIFT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:69] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_SHIFT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:70] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~31'
+WARNING  : No ports matched 'system_spi_0_io_sclk_write'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:139] No clocks matched 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:139] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:139] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~31'
+WARNING  : No ports matched 'system_spi_0_io_sclk_write'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:140] No clocks matched 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:140] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:140] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~30'
+WARNING  : No ports matched 'system_spi_0_io_ss'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:141] No clocks matched 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:141] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:141] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~30'
+WARNING  : No ports matched 'system_spi_0_io_ss'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:142] No clocks matched 'i_soc_clk'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:142] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:142] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:259] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:259] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:259] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:260] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:260] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:260] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:261] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:261] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:261] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:262] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:262] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:262] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:263] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:263] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:263] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:264] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:264] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:264] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:265] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:265] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:265] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:266] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:266] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:266] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:267] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:267] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:267] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:268] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:268] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:268] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:269] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:269] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:269] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:270] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:270] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:270] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:271] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:271] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:271] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:272] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:272] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:272] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:273] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:273] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:273] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:274] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:274] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:274] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:275] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:275] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:275] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:276] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:276] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:276] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:277] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:277] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:277] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:278] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:278] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:278] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:279] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:279] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:279] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:280] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:280] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:280] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:281] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:281] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:281] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:282] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:282] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:282] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:283] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:283] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:283] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:284] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:284] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:284] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:285] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:285] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:285] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:286] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:286] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:286] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:287] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:287] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:287] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:288] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:288] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:288] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:289] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:289] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:289] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:290] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:290] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/ti60f225_oob.sdc:290] Unable to run 'set_input_delay' constraint due to warnings found
+20 KEY first-stage synchronizer D pins: key_control_inst/key_meta[0]~FF|D key_control_inst/key_meta[1]~FF|D key_control_inst/key_meta[2]~FF|D key_control_inst/key_meta[3]~FF|D
+INFO     : SDC file 'ti60f225_oob.sdc' parsed successfully.
+WARNING  : Timer cuts a combinational loop at the edge from i672:in[0] to i672:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i672:in[0] to i672:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i652:in[0] to i652:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i652:in[0] to i652:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i682:in[0] to i682:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i682:in[0] to i682:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i782:in[0] to i782:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i782:in[0] to i782:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i772:in[0] to i772:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i772:in[0] to i772:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i762:in[0] to i762:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i762:in[0] to i762:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i752:in[0] to i752:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i752:in[0] to i752:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i742:in[0] to i742:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i742:in[0] to i742:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i732:in[0] to i732:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i732:in[0] to i732:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i722:in[0] to i722:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i722:in[0] to i722:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i712:in[0] to i712:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i712:in[0] to i712:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i702:in[0] to i702:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i702:in[0] to i702:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i692:in[0] to i692:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i692:in[0] to i692:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i792:in[0] to i792:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i792:in[0] to i792:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i802:in[0] to i802:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i802:in[0] to i802:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i812:in[0] to i812:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i812:in[0] to i812:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i822:in[0] to i822:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i822:in[0] to i822:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i832:in[0] to i832:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i832:in[0] to i832:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i602:in[0] to i602:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i602:in[0] to i602:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i612:in[0] to i612:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i612:in[0] to i612:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i622:in[0] to i622:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i622:in[0] to i622:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i632:in[0] to i632:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i632:in[0] to i632:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i642:in[0] to i642:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i642:in[0] to i642:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i662:in[0] to i662:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i662:in[0] to i662:out [TimerMsg::CombinationalLoopDetected]
+Maximum possible analyzed clocks frequency
+   Clock Name     Period (ns)  Frequency (MHz)     Edge
+vid_clk_dvi2         13.394        74.660         (R-R)
+CLK_5M                3.542       282.326         (R-R)
+i_mipi_rx_pclk        6.857       145.836         (R-R)
+core_clk              6.915       144.613         (R-R)
+tx_cal_clk_90edge     2.225       449.438         (R-R)
+sdram_clk             2.273       439.947         (R-R)
+rx_cal_clk            2.284       437.828         (R-R)
+tx_cal_clk            2.120       471.698         (R-R)
+hdmi_tx_slow_clk      4.083       244.918         (R-R)
+
+Geomean max period: 3.933
+
+Setup (Max) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+vid_clk_dvi2      vid_clk_dvi2           13.468            0.074           (R-R)
+vid_clk_dvi2      hdmi_tx_slow_clk        6.734            2.884           (R-R)
+CLK_5M            CLK_5M                200.000          196.458           (R-R)
+i_mipi_rx_pclk    i_mipi_rx_pclk         20.000           13.143           (R-R)
+core_clk          core_clk               10.000            3.085           (R-R)
+core_clk          tx_cal_clk_90edge       2.500            0.741           (R-R)
+tx_cal_clk_90edge core_clk                2.500            1.829           (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge       2.500            0.275           (R-R)
+tx_cal_clk_90edge tx_cal_clk              2.500            1.137           (R-R)
+sdram_clk         tx_cal_clk_90edge       2.500            0.229           (R-R)
+sdram_clk         sdram_clk               2.500            0.227           (R-R)
+rx_cal_clk        rx_cal_clk              2.500            0.216           (R-R)
+tx_cal_clk        tx_cal_clk              2.500            0.380           (R-R)
+hdmi_tx_slow_clk  vid_clk_dvi2            6.734            5.483           (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk        6.734            2.651           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+vid_clk_dvi2      vid_clk_dvi2           0.000            0.026            (R-R)
+vid_clk_dvi2      hdmi_tx_slow_clk       0.000            0.128            (R-R)
+CLK_5M            CLK_5M                 0.000            0.090            (R-R)
+i_mipi_rx_pclk    i_mipi_rx_pclk         0.000            0.026            (R-R)
+core_clk          core_clk               0.000            0.035            (R-R)
+core_clk          tx_cal_clk_90edge      0.000            0.123            (R-R)
+tx_cal_clk_90edge core_clk               0.000            0.077            (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge      0.000            0.037            (R-R)
+tx_cal_clk_90edge tx_cal_clk             0.000            0.572            (R-R)
+sdram_clk         tx_cal_clk_90edge      0.000            0.542            (R-R)
+sdram_clk         sdram_clk              0.000            0.100            (R-R)
+rx_cal_clk        rx_cal_clk             0.000            0.027            (R-R)
+tx_cal_clk        tx_cal_clk             0.000            0.071            (R-R)
+hdmi_tx_slow_clk  vid_clk_dvi2           0.000            0.085            (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk       0.000            0.052            (R-R)
+
+INFO     : Write Timing Report to "outflow\ti60f225_oob.timing.rpt" ...
+INFO     : final timing analysis took 13.1097259 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 14.25 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 519.788 MB, end = 728.588 MB, delta = 208.8 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 728.588 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 518.092 MB, end = 729.568 MB, delta = 211.476 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 729.568 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "outflow\ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "outflow\ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file work_pnr\ti60f225_oob.lbf.
+INFO     : Bitstream generation took 1.8168251 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 1.5625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 447.868 MB, end = 658.028 MB, delta = 210.16 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 728.588 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 454.068 MB, end = 665.84 MB, delta = 211.772 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 729.608 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 330.1682425 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 1603.921875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.056 MB, end = 658.028 MB, delta = 637.972 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 728.588 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 22.596 MB, end = 665.88 MB, delta = 643.284 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 729.608 MB [FlowMsg::RSSUsage::Peak]

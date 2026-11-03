@@ -1,0 +1,25 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\HDMI_Recognition\FINAL06_HDMI_Expression_System\verification\nativeexpr56_small_final06_core.do}
+# vsim -onfinish exit work.tb_nativeexpr56 
+# Start time: 11:16:14 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_nativeexpr56
+# Loading work.number_video_pipeline
+# Loading work.edge_detect_2ppc
+# Loading work.edge_continuity_2ppc
+# Loading work.number_preprocess
+# Loading work.number_mlp
+# Loading work.number_result_filter
+# Loading work.expression_operator
+# Loading work.expression_engine
+# Loading work.expression_result_filter
+# Loading work.expression_overlay
+# Loading work.ui55
+# PASS NATIVE_RECOGNITION56 app=3 production 768x768 ROI /192x192 grid, real Sobel+continuity+preprocess+MLP, normalized_bits=11760 starts=15 NN=15 expressions=3; real UI heading/answer/preview/green-box/RESULT mapping and OFF clearing; outer white margins cropped only
+# ** Note: $finish    : verification/native_recognition56.vh(89)
+#    Time: 94913144144 ps  Iteration: 1  Instance: /tb_nativeexpr56
+# End time: 11:20:29 on Nov 01,2026, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 0

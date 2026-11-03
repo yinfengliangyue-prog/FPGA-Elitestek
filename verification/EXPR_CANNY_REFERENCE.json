@@ -1,0 +1,56 @@
+{
+  "high": 10,
+  "low": 5,
+  "noise": true,
+  "width": 832,
+  "height": 800,
+  "roi": 768,
+  "grid": 192,
+  "cell_min_hits": 2,
+  "scene": "Existing12+34 glyphs on clean252 background; original checker244/252 remains the separate legacy Sobel fixture",
+  "boxes": [
+    [
+      20,
+      26,
+      78,
+      113
+    ],
+    [
+      48,
+      74,
+      78,
+      113
+    ],
+    [
+      83,
+      108,
+      83,
+      108
+    ],
+    [
+      126,
+      141,
+      77,
+      113
+    ],
+    [
+      155,
+      180,
+      77,
+      114
+    ]
+  ],
+  "edge_pixels": 2708,
+  "generator_sha256": "7177db5263e473930b10ca13f6bd62773dd592f3db31f1f105c04d1bbf813086",
+  "dependencies": {
+    "verification\\source52\\canny_reference.py": "0e60cffdafcd9d518da76cc747430c585a00ea7a749a5a1e57b4f80f9d144fd6",
+    "tools\\noise_reference.py": "306013f89d8c1973d07a2a1f2233518dd30a2e3404527cae2794094a35838e85",
+    "verification\\number\\expression_hd_images.mem": "4ed20ca22beb21839b63010da87247c63aee839fd710483579555c9c9a643237"
+  },
+  "outputs": {
+    "expr_canny06_images.mem": "c69547016919e72c03ad27ad9dd6ad3dad98dd6e8579f279e70e78332dccc08c",
+    "expr_canny06_edges.mem": "13ffac4791367fd32c7b01cb50ee14c35abf3fa192da295ee24c74584e588cbe",
+    "expr_canny06_expected.mem": "12bb888c1ad0ccf2f1971118b871719bfd9240ecc435f484896b001be216898b",
+    "expr_canny06_boxes.mem": "64b53002eb9aae8bd15b2b4310da6d837b939e28bd7c0daac5a6ba71019f4446"
+  }
+}

@@ -1,0 +1,19 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\writer52_small_expr_canny_core.do}
+# vsim -onfinish exit work.tb_writer52 
+# Start time: 13:24:25 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_writer52
+# Loading work.replay_writer52
+# Loading work.DC_FIFO
+# Loading work.FifoAddrCnt
+# Loading work.GrayCnt
+# Loading work.GrayDecode
+# PASS WRITER52 random AW/W waits, 4k splits, final B publish, SLVERR suppression, recovery, skipped capture
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_writer52.sv(52)
+#    Time: 102491480 ps  Iteration: 1  Instance: /tb_writer52
+# End time: 13:24:26 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

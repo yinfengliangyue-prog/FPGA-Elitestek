@@ -1,0 +1,56 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\style_presets06_small_fps60_presets_fast.do}
+# vsim -onfinish exit work.tb_style_presets06 
+# Start time: 13:01:05 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_style_presets06
+# Loading work.keys55
+# Loading work.canny_stream_2ppc
+# Loading work.canny_impulse_2ppc
+# Loading work.canny_window_2ppc
+# Loading work.canny_delay
+# Loading work.canny_gaussian_2ppc
+# Loading work.canny_gradient_2ppc
+# Loading work.canny_nms_classify_2ppc
+# Loading work.canny_link_2ppc
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 61, found 31.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_style_presets06/dut File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv Line: 6
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'replay_command_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'replay_command'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'threshold_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'threshold_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'low_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'low_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'selected_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'swap_sides'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'same_frame'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'fullscreen'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'shape_enable'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'number_enable'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'edit_low'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'live_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'capture_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'capture_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'live_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'live_group'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'capture_group'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'awb_lock_request'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'menu_page'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'ai_min_strength'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'ai_min_select'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'osd_activity_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'osd_help_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'osd_context'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'aux_visible'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'shape_lock_request'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'osd_detail'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(6): [TFMPC] - Missing connection for port 'fps_show'.
+# ** Fatal: history B order
+#    Time: 159440 ns  Scope: tb_style_presets06 File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv Line: 49
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(49)
+#    Time: 159440 ns  Iteration: 1  Instance: /tb_style_presets06
+# End time: 13:01:06 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 31

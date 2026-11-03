@@ -1,0 +1,11 @@
+# do {E:\ELEGtools\xianshu_FPGA\HDMI_Recognition\FINAL06_HDMI_Expression_System\verification\mlp_small_final06_core.do}
+# vsim -onfinish exit work.tb_mlp 
+# Start time: 11:20:31 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_mlp
+# Loading work.number_mlp
+# PASS MLP: 1000 exact scores, 100 argmax/margins, sample accuracy=98/100
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/HDMI_Recognition/FINAL06_HDMI_Expression_System/verification/tb_mlp.sv(29)
+#    Time: 79015050 ns  Iteration: 1  Instance: /tb_mlp
+# End time: 11:20:52 on Nov 01,2026, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

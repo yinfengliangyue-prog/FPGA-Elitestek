@@ -1,0 +1,100 @@
+[
+  {
+    "seed": 3,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.06,
+    "hold_slack_ns": 0.022,
+    "archive": "verification/resource_trials/seed3_initial_FINAL06_before_BAL64",
+    "outputs": {
+      "ti60f225_oob.bit": "3cd296682461c2ff699543abc82024b449ef0390644b4d80f73085a1d2b0895a",
+      "ti60f225_oob.hex": "0b8acc359cdd964c96bd807c5d1d1fd6f8f99e9048941a129ca4096df3aaf738"
+    }
+  },
+  {
+    "seed": 2,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.069,
+    "hold_slack_ns": 0.022,
+    "archive": "verification/resource_trials/seed2_CLEAN94_before_BAL64",
+    "outputs": {
+      "ti60f225_oob.bit": "b8060e9b23c142f5c3999f96f0df3d6fee842c10bf63ab4739ea8624ce7ddd31",
+      "ti60f225_oob.hex": "6d38958cc489f9c43f91371cd601c32f89ee576b0693cd7acb6384d6392a97e8"
+    }
+  },
+  {
+    "seed": 1,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.011,
+    "hold_slack_ns": 0.026,
+    "archive": "verification/resource_trials/seed1",
+    "outputs": {
+      "ti60f225_oob.bit": "d3b1f2062337783cef382f27ae7453948eeebd1fc807d95c4b0e2f382a3d98fd",
+      "ti60f225_oob.hex": "e219919e594d28ff2670161b726b8afeddb687128c6a75853aa30012a3ce2fb9"
+    }
+  },
+  {
+    "seed": 3,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.08,
+    "hold_slack_ns": 0.01,
+    "archive": "verification/resource_trials/seed3",
+    "outputs": {
+      "ti60f225_oob.bit": "e54cf2bf6f809e8078b6e4656e1ba0310ed18133d514e422526b10580d8747eb",
+      "ti60f225_oob.hex": "61acf98d51b69635fc0a51e904651609d135af2349c612b232e09123c1008be6"
+    }
+  },
+  {
+    "seed": 2,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.358,
+    "hold_slack_ns": 0.026,
+    "archive": "verification/resource_trials/seed2",
+    "outputs": {
+      "ti60f225_oob.bit": "ff0a98f682ea9e20389d5914803d7cb859c97bb61c72bd5d631f5b73f9e330e6",
+      "ti60f225_oob.hex": "a1f993ae07d47205a7abca32e11ad427617b2751c525c1e036c03786768e1ce0"
+    }
+  },
+  {
+    "seed": 4,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.017,
+    "hold_slack_ns": 0.027,
+    "archive": "verification/resource_trials/seed4",
+    "outputs": {
+      "ti60f225_oob.bit": "84f9a0313c18c5b5198505e8cffb18bb8468890ad8d62a1afbb38f419b188338",
+      "ti60f225_oob.hex": "90c1ade69838caf392ef8c83013ea2a34c3c6fc2bd482d522a42df14e3d29dc0"
+    }
+  },
+  {
+    "seed": 5,
+    "placer_effort_level": 2,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.177,
+    "hold_slack_ns": 0.026,
+    "archive": "verification/resource_trials/seed5",
+    "outputs": {
+      "ti60f225_oob.bit": "e654a3b9bb1f1959509a3a50ae513d790196502b9da130065af0f16e6b8b93a3",
+      "ti60f225_oob.hex": "f85f0e5139feaeabd095ff21e5d5606de146e86cea4c00ee7fecb482fba53153"
+    }
+  },
+  {
+    "seed": 6,
+    "placer_effort_level": 5,
+    "complete_build": true,
+    "timing_passed": false,
+    "setup_slack_ns": -0.032,
+    "hold_slack_ns": 0.026,
+    "archive": "verification/resource_trials/seed6",
+    "outputs": {
+      "ti60f225_oob.bit": "4fdc1a2f108f8561442dde6dc4a634e0d52649d4c11f7d85886311895d6a4a3d",
+      "ti60f225_oob.hex": "8f05c72ef1cf57321d2cd3581dd1951d05ba3ded6892e8fd66a95798ea7dcfa5"
+    }
+  }
+]

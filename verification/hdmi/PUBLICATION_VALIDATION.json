@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "summary": [
+    "# PASS EXPRESSION_PUBLISH: pending vs confirmed, frame-atomic text+boxes, unknown lock rejected, lock isolation, unlock/OFF clearing, DIV0 formatting"
+  ],
+  "source_hashes": {
+    "rtl/number/expression_overlay.v": "ff33a45d1002c1492cedfb37f47942ab0f982f86a9916e0eceb79576b308eb15",
+    "verification/number/tb_expression_publish.sv": "f2dc4e96d4f77e9d7fe56a6e376e8fcc921a6e9cb1c5d425be179d1924257d2f"
+  }
+}

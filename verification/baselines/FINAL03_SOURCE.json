@@ -1,0 +1,11 @@
+{
+  "project_id": 54,
+  "name": "FINAL03_HDMI_Canny_System",
+  "source": "E:\\ELEGtools\\xianshu_FPGA\\50_HDMI_Canny_System",
+  "baseline": "BlackFix_NoSwap_20261031",
+  "source_bit_sha256": "6c0238cbe9b539a0d4cb00072f797691c6664a668ea5545efaf27431ae08a312",
+  "menu_spec": "E:\\CodexProject\\嵌赛FPGA\\HDMI_菜单交互重设计方案_v2.md",
+  "hardware_tested": false,
+  "menu_spec_sha256": "054b7f507c0b70c61e062fe9ac24972c39d994d7597c201e6e3207ffc77f44dd",
+  "menu_spec_copy": "docs/菜单方案_v2_原文.md"
+}

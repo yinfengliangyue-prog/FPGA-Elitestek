@@ -1,0 +1,20 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\capture_identity06_small_expr_canny_core.do}
+# vsim -onfinish exit work.tb_capture_identity06 
+# Start time: 13:27:19 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_capture_identity06
+# Loading work.final_recognition
+# Loading work.shape_contour_detector
+# Loading work.shape_color_overlay
+# Loading work.final_shape_overlay
+# Loading work.golden_recognition56
+# Loading work.golden_number_annotation56
+# PASS CAPTURE_IDENTITY06 1478399 every-cycle comparisons against literal56; real rectangle classifier publications=6; RGB, edges, masks, thresholds, AUX, result lock and task reentry unchanged
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_capture_identity06.sv(33)
+#    Time: 14784046 ns  Iteration: 0  Instance: /tb_capture_identity06
+# End time: 13:27:50 on Nov 01,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0

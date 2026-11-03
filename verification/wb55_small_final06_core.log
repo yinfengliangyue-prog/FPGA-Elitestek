@@ -1,0 +1,21 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\HDMI_Recognition\FINAL06_HDMI_Expression_System\verification\wb55_small_final06_core.do}
+# vsim -onfinish exit work.tb_wb55 
+# Start time: 11:12:58 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_wb55
+# Loading work.final_wb55
+# Loading work.awb_rgbmean_2ppc
+# Loading work.color_enhance_rgb888
+# Loading work.gaussian_horizontal_2ppc
+# Loading work.gaussian_vertical_sharpen_compact_2ppc
+# Loading work.wb53_ref
+# Loading work.gaussian_vertical_sharpen_2ppc
+# PASS WB55 accepted53 Gamma/Gaussian/sharpen bit-exact 98304 pixels; reset Q320/158/329; bounded AUTO frame-atomic max1 Q8; LOCK and rejected-sample hold; no double green trim
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/HDMI_Recognition/FINAL06_HDMI_Expression_System/verification/tb_wb55.sv(48)
+#    Time: 969690 ns  Iteration: 1  Instance: /tb_wb55
+# End time: 11:13:01 on Nov 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

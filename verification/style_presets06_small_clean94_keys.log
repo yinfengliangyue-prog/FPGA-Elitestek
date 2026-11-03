@@ -1,0 +1,23 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\style_presets06_small_clean94_keys.do}
+# vsim -onfinish exit work.tb_style_presets06 
+# Start time: 15:18:25 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_style_presets06
+# Loading work.keys55
+# Loading work.canny_stream_2ppc
+# Loading work.canny_impulse_2ppc
+# Loading work.canny_window_2ppc
+# Loading work.canny_delay
+# Loading work.canny_gaussian_2ppc
+# Loading work.canny_gradient_2ppc
+# Loading work.canny_nms_classify_2ppc
+# Loading work.canny_link_2ppc
+# PASS STYLE_PRESETS06 17181 clocks and 12288 Canny pixels: ORIG/BAL/CLEAN/RED/GREY order; live active8/4,9/4,8/4; independent manual banks, restore and power reset; L<=H, long-repeat/chord rollback; FRAME LIVE versus immutable history; SHAPE6/3 and EXPR independent10/5 and CLEAN9/4, actual H/L edit and restore
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_style_presets06.sv(56)
+#    Time: 171910 ns  Iteration: 1  Instance: /tb_style_presets06
+# End time: 15:18:26 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

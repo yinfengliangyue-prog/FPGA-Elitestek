@@ -1,0 +1,15 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\ui55_small_expr_canny_native2.do}
+# vsim -onfinish exit work.tb_ui55 
+# Start time: 13:33:00 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_ui55
+# Loading work.ui55
+# PASS UI55_CONTEXTUAL actual RTL previews; clean FULL; persistent card; effective H/L; 6-row scroll; frame-atomic close; EXPR exact ROI/heading/search geometry; independent NUMBER title/preview removed; auxiliary-only hide; two-stage RGB/control alignment; 300 display frames/5s hint counter; fixed DISPLAY FPS60 independent of invalid/arbitrary measurement inputs
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_ui55.sv(66)
+#    Time: 6243510 ns  Iteration: 1  Instance: /tb_ui55
+# End time: 13:33:41 on Nov 01,2026, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0

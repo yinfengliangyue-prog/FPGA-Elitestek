@@ -1,0 +1,71 @@
+{
+  "tests": {
+    "tb_keys52": {
+      "seconds": 0.8278379440307617,
+      "evidence": [
+        "# PASS KEYS52 all masks, 10 reserved chords, +/-1 hold repeat, no release duplicate, long view/speed, debounce/startup/scope isolation"
+      ]
+    },
+    "tb_config52": {
+      "seconds": 0.819556713104248,
+      "evidence": [
+        "# PASS CONFIG52 LIVE manual H 1..255, default/reset H6/L3, L<=H, review and reserved-action isolation"
+      ]
+    },
+    "tb_awb52": {
+      "seconds": 0.9297339916229248,
+      "evidence": [
+        "# PASS AWB52 independent integer target/smoothing/linear RGB, all R/G/B change, 20 frames, frame-atomic gains, DE/HS/VS"
+      ]
+    },
+    "tb_control52": {
+      "seconds": 0.8141841888427734,
+      "evidence": [
+        "# PASS CONTROL52 120 frames, 256MiB bounds, triple live buffers, immutable review, 3 speeds, +/-1 clamped steps, reserved actions, WB/RED/BAL only, independent A/B, drain restart, early/empty take"
+      ]
+    },
+    "tb_gearbox40": {
+      "seconds": 1.5473017692565918,
+      "evidence": [
+        "# PASS GEARBOX40 three clock phases, five resets, RGB lane order, all blank/active DE/HS/VS, no loss or duplication"
+      ]
+    },
+    "tb_writer52": {
+      "seconds": 0.8478972911834717,
+      "evidence": [
+        "# PASS WRITER52 random AW/W waits, 4k splits, final B publish, SLVERR suppression, recovery, skipped capture"
+      ]
+    },
+    "tb_raster52": {
+      "seconds": 0.8493242263793945,
+      "evidence": [
+        "# PASS RASTER52 decimal 120/100/120/1990ms, label placement, underflow blanks remainder, next-frame recovery"
+      ]
+    },
+    "tb_replay52": {
+      "seconds": 114.48658967018127,
+      "evidence": [
+        "# PASS REPLAY52 integrated commits=152 count=12 payload=155648 image_pixels=311296 bg_reads=897 bg_writes=878",
+        "# HDMI42_SCOREBOARD pixels=1051642 active=623024 lines=9734 frames=153"
+      ]
+    }
+  },
+  "source_hashes": {
+    "rtl/frame_buffer/DC_FIFO.v": "ecc22c4e4ca706391b32ade38d6d00332841df5be98c6a2f03a5a27eee696796",
+    "rtl/edge/canny_stream_2ppc.v": "00c009548b29c770979306397de88ff32b47313607c32bb71077fa337054dd06",
+    "rtl/edge/edge_balanced_render_2ppc.v": "0c4b89c85675b8693ce1f49ba325d37171fdc910c4c7e5407c13a59d75cc9342",
+    "rtl/wb50/awb_grayworld_rgb_2ppc.v": "7ebda33cb4da883478e115744dca17dd3b0049938c2d69c2512e6e777cf1e583",
+    "rtl/compare23/compare_reader23.v": "1b5d74bb568cb0856605918553f34375b3ed9357e1d25930d01e8d3ec274cbd9",
+    "rtl/compare23/axi_pair23.v": "1e17133c7dc80cbd3d952b1e33f28f8fb65e2a2160ac0c428b8a9744bbd0285f",
+    "rtl/hdmi_gearbox40.v": "d4dfb8252e7f7a9a8202dd908951d1ca49d5ed711752748d81d79c384e9d1a81",
+    "rtl/replay52/frame_replay52.v": "98af9fdc277e2b909a9b85a6f016dca894b4791cbbf74e0b9e2e6db3d4e79064",
+    "rtl/replay52/replay_awb52.v": "2dfb556b6cfbf381cfa23ce812070ffd3174aaa3545001c9a8451f2da1c144f4",
+    "rtl/replay52/replay_config52.v": "8d315e38ebb76360685ad28748d2986b0407b41d07c07a9e50d08a3aca4838bc",
+    "rtl/replay52/replay_control52.v": "c3f32b0647c5be61e89da4c8f78160cd051825a2867e71c26efc471efe4401fc",
+    "rtl/replay52/replay_keys52.v": "f475a11f10e5987d449a44416e813f7bdc9c09176ca07d893425171cc46cc503",
+    "rtl/replay52/replay_pack52.v": "fc3294b83803d31ab921386e0c31e0484b9e860aef34b4020df7abe40f22308a",
+    "rtl/replay52/replay_raster52.v": "237554ea7be94e0c5a2acdca76d558fb1509ee3376a65d5a84e6f3c2abd57933",
+    "rtl/replay52/replay_writer52.v": "e2838166bbeb264da650c278eb9e59d1fd59fc6eee872b58f531316a34718b5f"
+  },
+  "board_tested": false
+}

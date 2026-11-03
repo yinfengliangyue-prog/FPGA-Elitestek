@@ -1,0 +1,54 @@
+# do {E:\ELEGtools\xianshu_FPGA\HDMI_Recognition\FINAL06_HDMI_Expression_System\verification\system55_small_final06_core.do}
+# vsim -onfinish exit work.tb_system55 
+# Start time: 11:13:15 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_system55
+# Loading work.axi_pair23
+# Loading work.system55
+# Loading work.canny_stream_2ppc
+# Loading work.canny_impulse_2ppc
+# Loading work.canny_window_2ppc
+# Loading work.canny_delay
+# Loading work.canny_gaussian_2ppc
+# Loading work.canny_gradient_2ppc
+# Loading work.canny_nms_classify_2ppc
+# Loading work.final_wb55
+# Loading work.awb_rgbmean_2ppc
+# Loading work.color_enhance_rgb888
+# Loading work.gaussian_horizontal_2ppc
+# Loading work.gaussian_vertical_sharpen_compact_2ppc
+# Loading work.final_recognition
+# Loading work.shape_contour_detector
+# Loading work.shape_color_overlay
+# Loading work.final_shape_overlay
+# Loading work.edge_balanced_render_2ppc
+# Loading work.edge_balance_geometry
+# Loading work.edge_balance_axis
+# Loading work.pack55
+# Loading work.control55
+# Loading work.replay_writer52
+# Loading work.DC_FIFO
+# Loading work.FifoAddrCnt
+# Loading work.GrayCnt
+# Loading work.GrayDecode
+# Loading work.reader55
+# Loading work.number_video_pipeline
+# Loading work.edge_detect_2ppc
+# Loading work.edge_continuity_2ppc
+# Loading work.number_preprocess
+# Loading work.number_mlp
+# Loading work.number_result_filter
+# Loading work.expression_operator
+# Loading work.expression_engine
+# Loading work.expression_result_filter
+# Loading work.expression_overlay
+# Loading work.raster55
+# Loading work.ui55
+# Loading work.hdmi_gearbox40
+# Loading work.canny_link_2ppc
+# PASS SYSTEM55_FULL_REPLAY52 integrated commits=152 count=12 payload=155648 image_pixels=311296 bg_reads=897 bg_writes=875
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/HDMI_Recognition/FINAL06_HDMI_Expression_System/verification/tb_system55.sv(319)
+#    Time: 7081945780 ps  Iteration: 1  Instance: /tb_system55
+# HDMI42_SCOREBOARD pixels=1051616 active=622994 lines=9734 frames=153
+# End time: 11:15:25 on Nov 01,2026, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0

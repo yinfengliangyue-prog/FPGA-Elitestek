@@ -1,0 +1,17 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\menu_identity06_small_fps60_presets_ui.do}
+# vsim -onfinish exit work.tb_menu_identity06 
+# Start time: 13:03:15 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_menu_identity06
+# Loading work.ui55
+# Loading work.golden_ui_literal06
+# ** Fatal: FINAL04 menu difference state=0 xy=1588,216 actual=ffffff original=20242a
+#    Time: 11427 ns  Scope: tb_menu_identity06.compare_point File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_menu_identity06.sv Line: 38
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_menu_identity06.sv(38)
+#    Time: 11427 ns  Iteration: 0  Instance: /tb_menu_identity06
+# End time: 13:03:15 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

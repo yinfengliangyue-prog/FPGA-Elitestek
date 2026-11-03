@@ -1,0 +1,22 @@
+{
+  "source_hashes": {
+    "rtl/replay52/replay_raster52.v": "237554ea7be94e0c5a2acdca76d558fb1509ee3376a65d5a84e6f3c2abd57933",
+    "verification/tb_ui52.sv": "506742907e380d728c3011e589ac587eeb3c632c9981d77d8e678d2c92d0ddd1"
+  },
+  "captures": {
+    "LIVE": {
+      "file": "ui52_fixture_0.ppm",
+      "sha256": "440ed9fc6feb3fffb90e9adf0194c8bd0c704df924b529dbd928deb054d55208"
+    },
+    "REPLAY": {
+      "file": "ui52_fixture_1.ppm",
+      "sha256": "96156dbe3ca1bdb790ec05168d2aaecd2d738a9d05717de481e3f5427da73f7d"
+    },
+    "COMPARE": {
+      "file": "ui52_fixture_2.ppm",
+      "sha256": "8ddb2bf5a0033340dd47ff4254f77470175efef44933ada9deb164d45bf61abb"
+    }
+  },
+  "synthetic_fixture": true,
+  "hardware_tested": false
+}

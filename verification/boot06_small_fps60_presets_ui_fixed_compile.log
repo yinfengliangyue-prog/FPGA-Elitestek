@@ -1,0 +1,104 @@
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:04:32 on Nov 01,2026
+vlog -modelsimini E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\small_fps60_presets_ui_fixed.ini -sv "+incdir+." "+incdir+rtl/wb24" "+incdir+rtl/wb53" -work E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\work55_small_fps60_presets_ui_fixed rtl/dual_clock_fifo.v rtl/true_dual_port_ram.v rtl/reset.v rtl/simple_dual_port_ram.v rtl/frame_buffer/par2ser_128_24_v1.v rtl/frame_buffer/vid_check.v rtl/frame_buffer/frame_info_det.v rtl/frame_buffer/par2ser_parse.v rtl/frame_buffer/ser2par_16_128_v1.v rtl/frame_buffer/vid_rx_align_v1.v rtl/frame_buffer/ddr_wr_buffer.v rtl/frame_buffer/data_tx.v rtl/frame_buffer/frame_buffer.v rtl/frame_buffer/ser2par_24_128_v1.v rtl/frame_buffer/rst_n_piple.v rtl/frame_buffer/ddr_rd_buffer.v rtl/frame_buffer/ddr_buffer.v rtl/frame_buffer/bank_switch.v rtl/frame_buffer/par2ser_128_16_v1.v rtl/frame_buffer/par2ser_128_32_v1.v rtl/frame_buffer/ser2par_32_128_v1.v rtl/debayer/rgb_gain.v rtl/debayer/line_buffer.v rtl/debayer/debayer_top_2to1.v rtl/debayer/raw_to_rgb.v rtl/sensor_clipper.v rtl/color_bar_v3.0/color_bar_rgb.v rtl/frame_buffer/DC_FIFO.v rtl/compare23/axi_pair23.v rtl/compare23/awb_grayworld_2ppc.v rtl/edge/canny_stream_2ppc.v rtl/shape/shape_contour_detector.v rtl/final/final_recognition.v rtl/final/final_shape_overlay.v rtl/fps_meter60.v rtl/shape/shape_color_overlay.v rtl/wb24/color_enhance_rgb888.v rtl/wb24/final_wb24.v rtl/wb24/gaussian_horizontal_2ppc.v rtl/wb24/gaussian_vertical_sharpen_compact_2ppc.v rtl/hdmi_gearbox40.v rtl/edge/edge_balanced_render_2ppc.v rtl/wb50/awb_grayworld_rgb_2ppc.v rtl/final/keys55.v rtl/final/system55.v rtl/final/pack55.v rtl/final/reader55.v rtl/final/raster55.v rtl/final/ui55.v rtl/final/control55.v rtl/final/final_wb55.v rtl/replay52/replay_writer52.v rtl/wb53/awb_rgbmean_2ppc.v rtl/edge/edge_detect_2ppc.v rtl/number/edge_continuity_2ppc.v rtl/number/expression_engine.v rtl/number/expression_key_control.v rtl/number/expression_operator.v rtl/number/expression_overlay.v rtl/number/expression_result_filter.v rtl/number/number_mlp.v rtl/number/number_preprocess.v rtl/number/number_result_filter.v rtl/number/number_video_pipeline.v rtl/wb53/gaussian_vertical_sharpen_2ppc.v verification/baselines/wb53_ref.v E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\tb_boot06.sv 
+-- Compiling module dual_clock_fifo_wrapper
+-- Compiling module dual_clock_fifo
+-- Compiling module true_dual_port_ram
+-- Compiling module reset_ctrl
+-- Compiling module reset
+-- Compiling module simple_dual_port_ram
+-- Compiling module par2ser_128_24_v1
+-- Compiling module vid_check
+-- Compiling module frame_info_det
+-- Compiling module par2ser_parse
+-- Compiling module ser2par_16_128_v1
+-- Compiling module vid_rx_align_v1
+-- Compiling module ddr_wr_buffer1
+-- Compiling module data_tx
+-- Compiling module frame_buffer
+-- Compiling module ser2par_24_128_v1
+-- Compiling module rst_n_piple
+-- Compiling module ddr_rd_buffer
+-- Compiling module ddr_buffer
+-- Compiling module bank_switch
+-- Compiling module par2ser_128_16_v1
+-- Compiling module par2ser_128_32_v1
+-- Compiling module ser2par_32_128_v1
+-- Compiling module rgb_gain
+-- Compiling module line_buffer
+-- Compiling module debayer_top_2to1
+-- Compiling module raw_to_rgb
+-- Compiling module sensor_clipper
+-- Compiling module color_bar_rgb
+-- Compiling module DC_FIFO
+-- Compiling module FifoAddrCnt
+-- Compiling module GrayCnt
+-- Compiling module GrayDecode
+-- Compiling module axi_pair23
+-- Compiling module awb_grayworld_2ppc
+-- Compiling module canny_delay
+-- Compiling module canny_window_2ppc
+-- Compiling module canny_impulse_2ppc
+-- Compiling module canny_gaussian_2ppc
+-- Compiling module canny_gradient_2ppc
+-- Compiling module canny_nms_classify_2ppc
+-- Compiling module canny_link_2ppc
+-- Compiling module canny_stream_2ppc
+-- Compiling module shape_contour_detector
+-- Compiling module final_recognition
+-- Compiling module final_shape_overlay
+-- Compiling module fps_meter60
+-- Compiling module shape_color_overlay
+-- Compiling module color_enhance_rgb888
+-- Compiling module final_wb24
+-- Compiling module gaussian_horizontal_2ppc
+-- Compiling module gaussian_vertical_sharpen_compact_2ppc
+-- Compiling module hdmi_gearbox40
+-- Compiling module edge_balanced_render_2ppc
+-- Compiling module edge_balance_geometry
+-- Compiling module edge_balance_axis
+-- Compiling module awb_grayworld_rgb_2ppc
+-- Compiling module keys55
+-- Compiling module system55
+-- Compiling module pack55
+-- Compiling module reader55
+-- Compiling module raster55
+-- Compiling module ui55
+-- Compiling module control55
+-- Compiling module final_wb55
+-- Compiling module replay_writer52
+-- Compiling module awb_rgbmean_2ppc
+-- Compiling module edge_detect_2ppc
+-- Compiling module edge_continuity_2ppc
+-- Compiling module expression_engine
+-- Compiling module expression_key_control
+-- Compiling module expression_operator
+-- Compiling module expression_overlay
+-- Compiling module expression_result_filter
+-- Compiling module number_mlp
+-- Compiling module number_preprocess
+-- Compiling module number_result_filter
+-- Compiling module number_video_pipeline
+-- Compiling module gaussian_vertical_sharpen_2ppc
+-- Compiling module wb53_ref
+-- Compiling module boot_case06
+-- Compiling module tb_boot06
+
+Top level modules:
+	dual_clock_fifo_wrapper
+	reset_ctrl
+	vid_check
+	frame_buffer
+	debayer_top_2to1
+	sensor_clipper
+	color_bar_rgb
+	axi_pair23
+	fps_meter60
+	final_wb24
+	hdmi_gearbox40
+	system55
+	expression_key_control
+	wb53_ref
+	tb_boot06
+End time: 13:04:33 on Nov 01,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

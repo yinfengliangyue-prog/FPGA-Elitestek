@@ -1,0 +1,1 @@
+`define NUMBER_HIDDEN_SHIFT 0

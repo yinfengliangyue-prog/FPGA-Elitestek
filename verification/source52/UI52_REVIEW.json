@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-10-31T17:53:24.228303+08:00",
+  "reviewed_image_sha256": {
+    "UI52_COMPARE.png": "61be68853afe22a67e766a93b4f1278f5da96a810adbe71ba42630b7b7fb8ade",
+    "UI52_LIVE.png": "6bcfbeab48b61cfa6b7b1e676c51083bd61850d35b32feca6edd3bc2e4dc4fc7",
+    "UI52_REPLAY.png": "02e5ce134a79ceb757e43abfb71033bd04eb0d5f95c50c277682086a2402b100"
+  },
+  "synthetic_fixture": true,
+  "hardware_tested": false,
+  "notes": [
+    "Viewed all three native 1920x1080 PNGs.",
+    "AUTO WB/RED/BAL labels; no GREY/BW choice or +/-10 shortcut.",
+    "LIVE H006 L003; replay frame042/120 and 1X; compare A012 B107 delta01583ms.",
+    "Tabs, gold selected border, timeline markers and hold hints legible; all text outside image.",
+    "Fixture injects 120 metadata, not a claim of 120 full-HD end-to-end frames."
+  ]
+}

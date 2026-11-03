@@ -1,0 +1,23 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\cleanexpr06_small_bal64_clean94_keys.do}
+# vsim -onfinish exit work.tb_cleanexpr06 
+# Start time: 15:35:17 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_cleanexpr06
+# Loading work.keys55
+# Loading work.canny_stream_2ppc
+# Loading work.canny_impulse_2ppc
+# Loading work.canny_window_2ppc
+# Loading work.canny_delay
+# Loading work.canny_gaussian_2ppc
+# Loading work.canny_gradient_2ppc
+# Loading work.canny_nms_classify_2ppc
+# Loading work.canny_link_2ppc
+# PASS CLEAN_EXPR06 CLEAN defaults/restores9/4, EXPR defaults/restores10/5; independent manual memories11/3 and11/6 across app changes; power reset; real Canny active config for both; BAL6/4 with RED8/4 and SHAPE6/3 unchanged
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_cleanexpr06.sv(43)
+#    Time: 98580 ns  Iteration: 1  Instance: /tb_cleanexpr06
+# End time: 15:35:18 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

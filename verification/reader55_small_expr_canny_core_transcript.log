@@ -1,0 +1,21 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\reader55_small_expr_canny_core.do}
+# vsim -onfinish exit work.tb_reader55 
+# Start time: 13:24:23 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_reader55
+# Loading work.reader55
+# Loading work.DC_FIFO
+# Loading work.FifoAddrCnt
+# Loading work.GrayCnt
+# Loading work.GrayDecode
+# PASS READER55_STOPPED_CONSUMER cancellation releases stalled FIFO
+# TRACE offered cancel state=3
+# TRACE AR accepted
+# TRACE cancel drained
+# TRACE recovery launched
+# TRACE recovery finished
+# PASS READER55_ABORT AXI address stall held, accepted burst drained through RLAST, next complete frame 512 AXI32 words recovered (2048 thumbnail pixels)
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_reader55.sv(44)
+#    Time: 20762 ns  Iteration: 1  Instance: /tb_reader55
+# End time: 13:24:24 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

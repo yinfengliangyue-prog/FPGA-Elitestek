@@ -1,0 +1,61 @@
+{
+  "profile_id": "user_accepted_53_20261031",
+  "status": "user_accepted_visual_color_reference",
+  "source_project": "53_HDMI_WB_GreenSuppress_Gamma",
+  "source_observed_mode": "LOCK",
+  "source_photo": "D:\\HONOR Share\\Honor Share\\IMG_20261031_180314.jpg",
+  "source_photo_sha256": "d712932874197315f054e11a536944a229bef53040eebf810f7c27101ac07cec",
+  "user_observation": "这一版效果非常好，特别是这个参数，颜色已经几乎没有色差了，以后默认是这个，允许自动调模式在一定范围小幅微调",
+  "validation_scope": "用户当前环境的主观颜色/画面效果认可，不是跨照明或仪器色差测量验收",
+  "gain_scale": 256,
+  "default_effective_gain_q8": {
+    "R": 320,
+    "G": 158,
+    "B": 329
+  },
+  "default_effective_gain_multiplier": {
+    "R": 1.25,
+    "G": 0.6171875,
+    "B": 1.28515625
+  },
+  "gamma": 2.2,
+  "sharpen": true,
+  "sharpen_strength": 4,
+  "sharpen_detail_limit": 16,
+  "cfa_parameter": 0,
+  "exposure_registers": {
+    "3E00": "00",
+    "3E01": "5D",
+    "3E02": "60"
+  },
+  "effective_gain_contract": "这些是颜色增益模块实际采样并在OSD显示的最终Q8。G158已含53的224/256抑绿，不得再次乘0.875。",
+  "future_auto_policy": {
+    "default_mode": "AUTO_BOUNDED_AROUND_ACCEPTED_BASELINE",
+    "reset_and_power_on_effective_gain_q8": {
+      "R": 320,
+      "G": 158,
+      "B": 329
+    },
+    "range_relative_to_baseline_percent": 5,
+    "effective_gain_bounds_q8": {
+      "R": {
+        "min": 304,
+        "max": 336
+      },
+      "G": {
+        "min": 151,
+        "max": 165
+      },
+      "B": {
+        "min": 313,
+        "max": 345
+      }
+    },
+    "max_effective_gain_change_per_accepted_update_q8": 1,
+    "range_and_step_origin": "助手对用户“小幅微调”的保守实现约定，用户未逐项指定数值",
+    "publication": "三路同时在帧边界生效；样本不足或拒绝时保持，不跳回全256；LOCK冻结实际生效的最终Q8",
+    "implementation_status": "后续工程实现要求；本次仅保存校准参数/约定，现有53 bit未改变，旧AUTO仍是原算法宽范围自适应"
+  },
+  "scope": "后续彩色/WB工程及明确要求集成WB的工程默认采用。历史bit和无WB的Canny检测输入不追溯修改。",
+  "current_bit_sha256": "e84424ceaa9bccaca2a273ca98d3f5bed17414cda9c131596cef341fdb7109b1"
+}

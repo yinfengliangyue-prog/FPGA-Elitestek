@@ -1,0 +1,103 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\exprbinding06_small_expr_canny_core.do}
+# vsim -onfinish exit work.tb_exprbinding06 
+# Start time: 13:23:30 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_exprbinding06
+# Loading work.frame_buffer
+# Loading work.rst_n_piple
+# Loading work.vid_rx_align_v1
+# Loading work.frame_info_det
+# Loading work.ddr_buffer
+# Loading work.ddr_wr_buffer1
+# Loading work.DC_FIFO
+# Loading work.FifoAddrCnt
+# Loading work.GrayCnt
+# Loading work.GrayDecode
+# Loading work.ddr_rd_buffer
+# Loading work.bank_switch
+# Loading work.par2ser_parse
+# Loading work.data_tx
+# Loading work.debayer_top_2to1
+# Loading work.rgb_gain
+# Loading work.line_buffer
+# Loading work.true_dual_port_ram
+# Loading work.raw_to_rgb
+# Loading work.system55
+# Loading work.canny_stream_2ppc
+# Loading work.canny_impulse_2ppc
+# Loading work.canny_window_2ppc
+# Loading work.canny_delay
+# Loading work.canny_gaussian_2ppc
+# Loading work.canny_gradient_2ppc
+# Loading work.canny_nms_classify_2ppc
+# Loading work.final_wb55
+# Loading work.awb_rgbmean_2ppc
+# Loading work.color_enhance_rgb888
+# Loading work.gaussian_horizontal_2ppc
+# Loading work.gaussian_vertical_sharpen_compact_2ppc
+# Loading work.final_recognition
+# Loading work.shape_contour_detector
+# Loading work.shape_color_overlay
+# Loading work.final_shape_overlay
+# Loading work.edge_balanced_render_2ppc
+# Loading work.edge_balance_geometry
+# Loading work.edge_balance_axis
+# Loading work.pack55
+# Loading work.control55
+# Loading work.replay_writer52
+# Loading work.reader55
+# Loading work.number_video_pipeline
+# Loading work.number_preprocess
+# Loading work.number_mlp
+# Loading work.number_result_filter
+# Loading work.expression_operator
+# Loading work.expression_engine
+# Loading work.expression_result_filter
+# Loading work.expression_overlay
+# Loading work.raster55
+# Loading work.ui55
+# Loading work.axi_pair23
+# Loading work.ser2par_32_128_v1
+# Loading work.par2ser_128_16_v1
+# Loading work.canny_link_2ppc
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'camera'.  Expected 65, found 42.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_exprbinding06/camera File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv Line: 14
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'frozen'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awid'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awsize'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awburst'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awcache'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awprot'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awlock'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awcobuf'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awapcmd'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awallstrb'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'awqos'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arid'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arsize'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arburst'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arlock'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arapcmd'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arqos'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arcache'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'arprot'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'test_rd_fifo_rddata'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'test_wdata'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'test_rdata'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(14): [TFMPC] - Missing connection for port 'test_BURST_LEN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst_line_buffer_debayer'.  Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_exprbinding06/frontend/inst_line_buffer_debayer File: rtl/debayer/debayer_top_2to1.v Line: 75
+# ** Warning: (vsim-3722) rtl/debayer/debayer_top_2to1.v(75): [TFMPC] - Missing connection for port 'o_x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'sys'.  Expected 95, found 94.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_exprbinding06/sys File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv Line: 21
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(21): [TFMPC] - Missing connection for port 'held_b'.
+# PASS EXPR_BINDING06 actual system55: RAW DDR/Debayer/sharedCanny -> recognition 24576 pixels/8378 edge pairs, processed DDR snapshot -> raster 28672 pixels; red overlay ON=4192 OFF=17796; starvation/cancellation recovery with full SHAPE/FRAME retained
+# PASS TASKS55_RAW_AND_RECOVERY camera RAW32 -> real raw DDR frame_buffer -> Debayer -> WB53/Canny49 -> 32bit DDR snapshots -> display: raw_commits=33 processed=33 before=22272 recovered=62878 aborts=1; FULL/FRAME/SHAPE/EXPR nonzero images; task switches preserve immutable take; aux hide keeps detector active; read starvation recovered
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_exprbinding06.sv(114)
+#    Time: 1833608 ns  Iteration: 1  Instance: /tb_exprbinding06
+# End time: 13:24:10 on Nov 01,2026, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 28

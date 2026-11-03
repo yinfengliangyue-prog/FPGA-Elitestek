@@ -1,0 +1,41 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\focus55_small_bal64_clean94_keys.do}
+# vsim -onfinish exit work.tb_focus55 
+# Start time: 15:35:24 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_focus55
+# Loading work.keys55
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 61, found 33.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_focus55/dut File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv Line: 9
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'recognition_run'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'replay_style_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'replay_style_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'threshold_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'threshold_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'low_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'low_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'selected_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'swap_sides'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'same_frame'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'fullscreen'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'number_enable'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'edit_low'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'live_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'capture_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'capture_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'live_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'live_group'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'capture_group'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'denoise_enable'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'menu_page'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'ai_min_strength'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'ai_min_select'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'osd_activity_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'osd_help_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'osd_context'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'osd_detail'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(9): [TFMPC] - Missing connection for port 'fps_show'.
+# PASS FOCUS55 2328 every-clock focus checks; bidirectional 5-style loops FULL/A/B, 3-page loops, no transient wrong setting, editing retained, SW0 done/SW1 direct close, reopen priority, SHAPE default H6/L3 preserved, SHAPE WB/aux and original shortcuts unchanged
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_focus55.sv(65)
+#    Time: 36200 ns  Iteration: 1  Instance: /tb_focus55
+# End time: 15:35:25 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 29

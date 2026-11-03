@@ -1,0 +1,18 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\transport55_hd_fps60_presets_hd.do}
+# vsim -onfinish exit work.tb_transport55 
+# Start time: 13:03:32 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_transport55
+# Loading work.raster55
+# Loading work.ui55
+# Loading work.reader55
+# Loading work.DC_FIFO
+# Loading work.FifoAddrCnt
+# Loading work.GrayCnt
+# Loading work.GrayDecode
+# Loading work.hdmi_gearbox40
+# PASS TRANSPORT55_HD 4x1920x1080 frames, fixed A/B and full A/full B, 3110400 exact head checks, 8294400 active pixels, 9908786 HDMI pixel/control cycles, 11880 AXI bursts/1036800 words/2810 AR stalls; synthetic annotation colors bypass algorithm; real reader32/raster55/UI2stage/gearbox
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_transport55.sv(98)
+#    Time: 66725966944 ps  Iteration: 1  Instance: /tb_transport55
+# End time: 13:06:34 on Nov 01,2026, Elapsed time: 0:03:02
+# Errors: 0, Warnings: 0

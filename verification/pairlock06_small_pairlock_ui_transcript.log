@@ -1,0 +1,11 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\pairlock06_small_pairlock_ui.do}
+# vsim -onfinish exit work.tb_pairlock06 
+# Start time: 14:56:50 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_pairlock06
+# Loading work.control55
+# PASS PAIRLOCK06 empty/inflight publish fence, same committed bank A/B, uninterrupted8-frame take, triple-live pin protection, combined FULL/pair holds safely stall then resume, page/app/new-take/reset release
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_pairlock06.sv(35)
+#    Time: 4780 ns  Iteration: 1  Instance: /tb_pairlock06
+# End time: 14:56:50 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,16 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\menu_identity06_small_expr_canny_ui.do}
+# vsim -onfinish exit work.tb_menu_identity06 
+# Start time: 13:22:43 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_menu_identity06
+# Loading work.ui55
+# Loading work.golden_ui_literal06
+# PASS MENU_IDENTITY06 1614400 pixels against unmodified FINAL04 UI; seven unchanged settings contexts plus EXPR OFF heading; EXPR Canny menu verified separately, editing, scroll, EXPR OFF heading; title counts independently checked. Expected differences: four-page titles, EXPR RESULT OFF/ON, explicit ORIG/GREY labels.
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_menu_identity06.sv(58)
+#    Time: 848120 ns  Iteration: 0  Instance: /tb_menu_identity06
+# End time: 13:22:53 on Nov 01,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

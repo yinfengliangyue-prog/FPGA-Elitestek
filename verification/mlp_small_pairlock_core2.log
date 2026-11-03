@@ -1,0 +1,15 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\mlp_small_pairlock_core2.do}
+# vsim -onfinish exit work.tb_mlp 
+# Start time: 15:10:43 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_mlp
+# Loading work.number_mlp
+# PASS MLP: 1000 exact scores, 100 argmax/margins, sample accuracy=98/100
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_mlp.sv(29)
+#    Time: 79015050 ns  Iteration: 1  Instance: /tb_mlp
+# End time: 15:10:56 on Nov 01,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0

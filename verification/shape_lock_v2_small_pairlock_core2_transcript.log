@@ -1,0 +1,12 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\shape_lock_v2_small_pairlock_core2.do}
+# vsim -onfinish exit work.tb_shape_lock_v2 
+# Start time: 15:05:33 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_shape_lock_v2
+# Loading work.shape_color_overlay
+# Loading work.final_shape_overlay
+# PASS MENU_V2_SHAPE_LOCK real result/types and shared map ack held atomically; empty guard; unlock; task exit/reentry clears result
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_shape_lock_v2.sv(23)
+#    Time: 880 ns  Iteration: 1  Instance: /tb_shape_lock_v2
+# End time: 15:05:34 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

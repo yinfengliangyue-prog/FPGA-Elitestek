@@ -1,0 +1,64 @@
+{
+  "project": "FINAL06_HDMI_Expression_System",
+  "project_index": 59,
+  "digit_enable": false,
+  "number_ui": false,
+  "expression_enable": true,
+  "shape_classifier": true,
+  "boot_page": "EXPR",
+  "source_project": "E:\\ELEGtools\\xianshu_FPGA\\HDMI_Recognition\\56_HDMI_Expression_FINAL04",
+  "source_origin_sha256": "25af61b1e1622c6b308261131107ff34740d6d7125e1ac622d9e5cadc23d4415",
+  "baseline": "E:\\ELEGtools\\xianshu_FPGA\\FINAL04_HDMI_WB_Replay_System",
+  "date": "2026-11-01",
+  "hardware_tested": false,
+  "revision": "BAL64_CLEAN94_Expr105_20261101",
+  "fps_display_nominal": 60,
+  "fps_measurement_presented": false,
+  "display_order": [
+    "ORIG",
+    "BAL",
+    "CLEAN",
+    "RED",
+    "GREY"
+  ],
+  "style_threshold_defaults": {
+    "BAL": [
+      6,
+      4
+    ],
+    "CLEAN": [
+      9,
+      4
+    ],
+    "RED": [
+      8,
+      4
+    ],
+    "SHAPE": [
+      6,
+      3
+    ],
+    "EXPR": [
+      11,
+      5
+    ]
+  },
+  "threshold_manual_memory": "BAL/CLEAN/RED/SHAPE/EXPR independent; FRAME still one shared capture Canny; immutable history unchanged",
+  "expression_frontend": "shared full-resolution Canny",
+  "expression_threshold_default": [
+    11,
+    5
+  ],
+  "expression_threshold_bank": "EXPR",
+  "expression_red_edges": "ON even when RESULT OFF; AUX controls search/character boxes only",
+  "frame_live_pair_lock": true,
+  "pair_lock_menu": "LOCK A+B immediately below NEW TAKE in LIVE",
+  "pair_lock_background_recording": "unchanged; complete immutable history recording continues",
+  "menu_navigation_hold": {
+    "start_ms": 600,
+    "repeat_ms": 150,
+    "confirmation_repeat": false,
+    "wrap": false
+  },
+  "latest_user_change": "BAL default/reset/RESTORE DETECT6/4; CLEAN9/4; EXPR independent11/5; RED8/4 and SHAPE6/3 unchanged"
+}

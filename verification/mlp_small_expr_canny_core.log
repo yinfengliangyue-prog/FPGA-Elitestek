@@ -1,0 +1,15 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\mlp_small_expr_canny_core.do}
+# vsim -onfinish exit work.tb_mlp 
+# Start time: 13:32:23 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_mlp
+# Loading work.number_mlp
+# PASS MLP: 1000 exact scores, 100 argmax/margins, sample accuracy=98/100
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_mlp.sv(29)
+#    Time: 79015050 ns  Iteration: 1  Instance: /tb_mlp
+# End time: 13:32:41 on Nov 01,2026, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0

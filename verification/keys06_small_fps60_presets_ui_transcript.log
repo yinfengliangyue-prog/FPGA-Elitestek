@@ -1,0 +1,46 @@
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\keys06_small_fps60_presets_ui.do}
+# vsim -onfinish exit work.tb_keys06 
+# Start time: 13:02:26 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_keys06
+# Loading work.keys_case06
+# Loading work.keys55
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 61, found 29.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_keys06/dut/dut File: E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv Line: 5
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'replay_command_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'replay_command'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'replay_style_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'replay_style_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'threshold_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'threshold_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'low_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'low_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'mode_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'selected_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'swap_sides'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'same_frame'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'fullscreen'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'shape_enable'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'number_enable'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'edit_low'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'live_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'capture_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'capture_b'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'live_a'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'live_group'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'capture_group'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'menu_page'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'ai_min_strength'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'ai_min_select'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'osd_activity_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'osd_help_toggle'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'osd_context'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'confirm_reset'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'shape_lock_request'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'osd_detail'.
+# ** Warning: (vsim-3722) E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(5): [TFMPC] - Missing connection for port 'fps_show'.
+# PASS KEYS06 real SW3 ON/OFF, startup/entry OFF, search preserved, no hold double-toggle, RESULT direct action, all chords cancelled, AUX independent, H/L/DN live controls
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_keys06.sv(28)
+#    Time: 16 us  Iteration: 2  Instance: /tb_keys06
+# End time: 13:02:26 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 33

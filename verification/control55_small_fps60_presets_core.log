@@ -1,0 +1,15 @@
+Reading pref.tcl
+
+# 2020.1
+
+# do {E:\ELEGtools\xianshu_FPGA\FINAL06_HDMI_Expression_System\verification\control55_small_fps60_presets_core.do}
+# vsim -onfinish exit work.tb_control55 
+# Start time: 13:03:24 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_control55
+# Loading work.control55
+# PASS CONTROL55 120 frames, 256MiB bounds, triple live buffers, immutable review, 3 speeds, +/-1 clamped steps, legacy style command compatibility, independent A/B, drain restart, early/empty take
+# ** Note: $finish    : E:/ELEGtools/xianshu_FPGA/FINAL06_HDMI_Expression_System/verification/tb_control55.sv(65)
+#    Time: 36300 ns  Iteration: 1  Instance: /tb_control55
+# End time: 13:03:25 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

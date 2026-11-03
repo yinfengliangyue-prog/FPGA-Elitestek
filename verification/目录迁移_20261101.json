@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-01",
+  "old_path": "E:\\ELEGtools\\xianshu_FPGA\\HDMI_Recognition\\FINAL06_HDMI_Expression_System",
+  "new_path": "E:\\ELEGtools\\xianshu_FPGA\\FINAL06_HDMI_Expression_System",
+  "old_zip_path": "E:\\ELEGtools\\xianshu_FPGA\\HDMI_Recognition\\FINAL06_HDMI_Expression_System.zip",
+  "new_zip_path": "E:\\ELEGtools\\xianshu_FPGA\\FINAL06_HDMI_Expression_System.zip",
+  "production_inputs_and_images_unchanged": true,
+  "changes": "Relocation plus audit-tool path resolution and current documentation/packaging paths only; no RTL, model, constraints or bit changes.",
+  "zip_sha256_before": "e0966479c3e1e6d87768b59cf28102b44575cfd5ffd3400ca9bae21cb4dae05a"
+}

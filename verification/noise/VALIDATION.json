@@ -1,0 +1,1144 @@
+{
+  "groups": [
+    {
+      "grid": 64,
+      "scenes": 24,
+      "prefix": "noise64",
+      "cases": [
+        {
+          "name": "clean_three_short_minus",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "baseline",
+            "minus"
+          ]
+        },
+        {
+          "name": "point_above_same_x",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "point_below_same_x",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "point_between_left_and_minus",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "point_between_minus_and_right",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "point_on_search_border_outside_row",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "point_on_search_border_inside_row",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "point_in_digit_hole",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "larger_compact_point_inside_row",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "point",
+            "at_least_8_cells"
+          ]
+        },
+        {
+          "name": "six_noise_components_before_character_limit",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 6,
+          "tags": [
+            "candidate_capacity",
+            "not_truncated"
+          ]
+        },
+        {
+          "name": "noise_inside_four_pixel_crop_border",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "ownership",
+            "crop_border"
+          ]
+        },
+        {
+          "name": "thin_one_and_one_cell_high_minus",
+          "boxes": [
+            [
+              6,
+              6,
+              20,
+              43
+            ],
+            [
+              27,
+              34,
+              32,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            1,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "thin_one",
+            "minus",
+            "exact_8_cell_operator"
+          ]
+        },
+        {
+          "name": "disconnected_interior_horizontal_stroke",
+          "boxes": [
+            [
+              6,
+              17,
+              20,
+              43
+            ],
+            [
+              27,
+              38,
+              31,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "disconnected_stroke",
+            "ownership"
+          ]
+        },
+        {
+          "name": "one_empty_column_between_normal_strokes",
+          "boxes": [
+            [
+              5,
+              9,
+              20,
+              43
+            ],
+            [
+              27,
+              34,
+              32,
+              32
+            ],
+            [
+              47,
+              58,
+              20,
+              43
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "projection_gap",
+            "disconnected_stroke"
+          ]
+        },
+        {
+          "name": "clean_four_characters",
+          "boxes": [
+            [
+              2,
+              9,
+              21,
+              42
+            ],
+            [
+              16,
+              17,
+              21,
+              42
+            ],
+            [
+              26,
+              38,
+              26,
+              38
+            ],
+            [
+              47,
+              58,
+              21,
+              42
+            ]
+          ],
+          "labels": [
+            0,
+            1,
+            10,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "baseline"
+          ]
+        },
+        {
+          "name": "clean_five_characters",
+          "boxes": [
+            [
+              2,
+              9,
+              21,
+              42
+            ],
+            [
+              13,
+              20,
+              21,
+              42
+            ],
+            [
+              27,
+              37,
+              27,
+              37
+            ],
+            [
+              43,
+              50,
+              21,
+              42
+            ],
+            [
+              54,
+              61,
+              21,
+              42
+            ]
+          ],
+          "labels": [
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "baseline"
+          ]
+        },
+        {
+          "name": "five_characters_with_sixth_raw_candidate",
+          "boxes": [
+            [
+              2,
+              9,
+              21,
+              42
+            ],
+            [
+              13,
+              20,
+              21,
+              42
+            ],
+            [
+              27,
+              37,
+              27,
+              37
+            ],
+            [
+              43,
+              50,
+              21,
+              42
+            ],
+            [
+              54,
+              61,
+              21,
+              42
+            ]
+          ],
+          "labels": [
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "candidate_capacity"
+          ]
+        },
+        {
+          "name": "legal_two_digit_operand_keeps_all_four_tokens",
+          "boxes": [
+            [
+              2,
+              9,
+              21,
+              42
+            ],
+            [
+              16,
+              26,
+              27,
+              37
+            ],
+            [
+              34,
+              42,
+              21,
+              42
+            ],
+            [
+              51,
+              60,
+              21,
+              42
+            ]
+          ],
+          "labels": [
+            2,
+            10,
+            3,
+            9
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "extra_normal_digit",
+            "not_truncated"
+          ]
+        },
+        {
+          "name": "two_operators_kept_then_parser_rejects",
+          "boxes": [
+            [
+              2,
+              9,
+              21,
+              42
+            ],
+            [
+              15,
+              23,
+              28,
+              36
+            ],
+            [
+              29,
+              36,
+              21,
+              42
+            ],
+            [
+              42,
+              50,
+              28,
+              36
+            ],
+            [
+              56,
+              62,
+              21,
+              42
+            ]
+          ],
+          "labels": [
+            2,
+            10,
+            3,
+            10,
+            4
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "extra_operator",
+            "parser_rejection"
+          ]
+        },
+        {
+          "name": "six_normal_characters_are_not_truncated",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            2
+          ],
+          "noise_min": 0,
+          "tags": [
+            "extra_normal_digit",
+            "over_five"
+          ]
+        },
+        {
+          "name": "selected_character_touching_border_rejected",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            3
+          ],
+          "noise_min": 0,
+          "tags": [
+            "border_rejection"
+          ]
+        },
+        {
+          "name": "no_main_line_of_digits",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            1,
+            5
+          ],
+          "noise_min": 0,
+          "tags": [
+            "no_line"
+          ]
+        },
+        {
+          "name": "blank_rejected",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            1,
+            5
+          ],
+          "noise_min": 0,
+          "tags": [
+            "blank"
+          ]
+        },
+        {
+          "name": "only_two_digits_rejected",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            5
+          ],
+          "noise_min": 0,
+          "tags": [
+            "too_few"
+          ]
+        }
+      ]
+    },
+    {
+      "grid": 96,
+      "scenes": 7,
+      "prefix": "noise96",
+      "cases": [
+        {
+          "name": "large_scale_disconnected_tiny_bar_retained",
+          "boxes": [
+            [
+              8,
+              25,
+              25,
+              64
+            ],
+            [
+              42,
+              57,
+              44,
+              45
+            ],
+            [
+              74,
+              87,
+              25,
+              64
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "disconnected_stroke",
+            "relative_scale"
+          ]
+        },
+        {
+          "name": "minimum_height_extra_one_is_kept",
+          "boxes": [
+            [
+              5,
+              20,
+              25,
+              64
+            ],
+            [
+              31,
+              45,
+              38,
+              52
+            ],
+            [
+              55,
+              70,
+              25,
+              64
+            ],
+            [
+              82,
+              82,
+              42,
+              49
+            ]
+          ],
+          "labels": [
+            2,
+            10,
+            3,
+            1
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "mixed_size",
+            "extra_normal_digit",
+            "not_truncated"
+          ]
+        },
+        {
+          "name": "minimum_height_extra_zero_is_kept",
+          "boxes": [
+            [
+              5,
+              20,
+              25,
+              64
+            ],
+            [
+              31,
+              45,
+              38,
+              52
+            ],
+            [
+              55,
+              70,
+              25,
+              64
+            ],
+            [
+              80,
+              85,
+              42,
+              49
+            ]
+          ],
+          "labels": [
+            2,
+            10,
+            3,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 0,
+          "tags": [
+            "mixed_size",
+            "extra_normal_digit",
+            "not_truncated"
+          ]
+        },
+        {
+          "name": "off_row_long_object_only_touches_band_edge",
+          "boxes": [
+            [
+              6,
+              17,
+              40,
+              63
+            ],
+            [
+              40,
+              54,
+              51,
+              52
+            ],
+            [
+              76,
+              87,
+              40,
+              63
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 1,
+          "tags": [
+            "row_localization",
+            "same_x",
+            "band_edge"
+          ]
+        },
+        {
+          "name": "two_equally_supported_rows_are_ambiguous",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            1
+          ],
+          "noise_min": 0,
+          "tags": [
+            "ambiguous_row"
+          ]
+        },
+        {
+          "name": "exact_32_component_capacity_after_noise",
+          "boxes": [
+            [
+              6,
+              17,
+              45,
+              72
+            ],
+            [
+              40,
+              54,
+              58,
+              59
+            ],
+            [
+              76,
+              87,
+              45,
+              72
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 29,
+          "tags": [
+            "component_capacity_boundary"
+          ]
+        },
+        {
+          "name": "33_components_rejected_without_truncation",
+          "boxes": [],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": false,
+          "allowed_reject_reasons": [
+            4
+          ],
+          "noise_min": 0,
+          "tags": [
+            "component_overflow"
+          ]
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "scenes": 1,
+      "prefix": "noise192",
+      "cases": [
+        {
+          "name": "production_grid_high_coordinates_noise",
+          "boxes": [
+            [
+              135,
+              146,
+              137,
+              164
+            ],
+            [
+              155,
+              168,
+              150,
+              151
+            ],
+            [
+              177,
+              188,
+              137,
+              164
+            ]
+          ],
+          "labels": [
+            0,
+            11,
+            0
+          ],
+          "expected_expression_valid": true,
+          "allowed_reject_reasons": null,
+          "noise_min": 3,
+          "tags": [
+            "high_coordinates",
+            "production_grid"
+          ]
+        }
+      ]
+    }
+  ],
+  "case_count": 32,
+  "bit_count": 66640,
+  "expected_character_transactions": 85,
+  "oracle": "Human-authored clean foreground and injected noise; independent boolean-rectangle normalization.",
+  "limits": [
+    "Synthetic occupancy-grid video enters after Sobel/continuity; not physical camera accuracy.",
+    "Labels are supplied by the harness to exercise parser admission/rejection; MLP accuracy is covered by the separate full HDMI video test."
+  ],
+  "passed": true,
+  "hardware_tested": false,
+  "seconds": 36.205,
+  "source_hashes": {
+    "rtl/number/number_preprocess.v": "6c8cd98c862165f0a8bf8a9205a4c0421054a8b1be5179b0999d51b21530d6b2",
+    "rtl/number/expression_engine.v": "228697c7c6c5e76314268368a0d6344afb0040cb532450f959a20a58342c9b33",
+    "verification/noise/tb_expression_noise.sv": "817d28a3ea86c65ba8ad3a773d2584a3c0b35c63f9dbbfb3865bc24809be6662"
+  },
+  "fixture_hashes": {
+    "verification/noise/noise192_boxes.mem": "12c2d60e80acbb713b6c895e1431f20c07e530dfe0a986ba30dc913d7d780fe5",
+    "verification/noise/noise192_counts.mem": "18128e4c3aac57a9c5405f40e1f558fe9f5aac0728826bab306936e05ac116f9",
+    "verification/noise/noise192_crops.mem": "8e2218d55b22d48aea24dc1aa2c9d07bf0fa3de58616b33d8454c265c3d8a9c8",
+    "verification/noise/noise192_expected.mem": "beb9e6d977568e7cf795c566dde491c82f10b94b9481017580891d9d68ea39d6",
+    "verification/noise/noise192_grids.mem": "d78a71f20a717f0595d3e2ddf517218f9910fc24c2697f771406ea2b700bb65f",
+    "verification/noise/noise192_labels.mem": "6e282024faabc9470538442c95a1d4f53aee2feaaa8081eb9042e27c6fdb1c61",
+    "verification/noise/noise192_noise_min.mem": "18128e4c3aac57a9c5405f40e1f558fe9f5aac0728826bab306936e05ac116f9",
+    "verification/noise/noise192_reason_masks.mem": "64d88731ccdb6f927ce0b82e0fdd2f76708b4b8ec9eae5c4bfd38479dc5b51b3",
+    "verification/noise/noise192_valid.mem": "64d88731ccdb6f927ce0b82e0fdd2f76708b4b8ec9eae5c4bfd38479dc5b51b3",
+    "verification/noise/noise64_boxes.mem": "aa95e9b14dc446d28c80ab48ec6e7db387d9c3c69027dada0ff40caab91d59b0",
+    "verification/noise/noise64_counts.mem": "f6134dd2be3ae37ddcf8494325634701b2669da0d31648953f79e8985b0381d9",
+    "verification/noise/noise64_crops.mem": "18f2161ae6ade8f679d5f17842baa34b3b19388fddec755dff675177d4f7cadc",
+    "verification/noise/noise64_expected.mem": "748fd232299da2fa9cfa80aeae41e69daf179a1eb5b2babb29b917d03dadab1f",
+    "verification/noise/noise64_grids.mem": "d78234bbcbe82f436c3e70234a5b17e76d289ac8f9d7fb878ea75ec374aa4b92",
+    "verification/noise/noise64_labels.mem": "3fe82fbc7820b760d84488d4ef4d5941a45897233fde264219eb76214f79f899",
+    "verification/noise/noise64_noise_min.mem": "02089c727288adb5223fbdc684eeb5baf8862532e51aff1560fa219b980061d3",
+    "verification/noise/noise64_reason_masks.mem": "647c9cae53cb2b827da87bb5e820b10ad73801db1b748a7f061ac37920d557b2",
+    "verification/noise/noise64_valid.mem": "5be6b8e254f4136f8ece13a1fd4b48ae38763d96153816aa55aec85f4dd88910",
+    "verification/noise/noise96_boxes.mem": "2f77164bb8594b0f3ea64cbc7be10a91c756fac852777cc8fb77d0b73cbb3912",
+    "verification/noise/noise96_counts.mem": "174f7a34fdabad5b120dc60b1ff7433bbb2b4ed3a34842671e58b6f2eadf7ea5",
+    "verification/noise/noise96_crops.mem": "b987f3e520ff60c5a86eb460ac3e330d8af5bde27528d6f246f39ddcf0559763",
+    "verification/noise/noise96_expected.mem": "35df001074ca496f1c436a9f810bc392f5ada06996a215b3a42cd7547aaad18f",
+    "verification/noise/noise96_grids.mem": "ea066f4d9b23f0e31e49e7869de289e5c31d4b9b376da323787e1343fb9355f0",
+    "verification/noise/noise96_labels.mem": "f8397b51c03511c347c54224f7da4e3469b285d615eb49b0fe3ff29020e9074d",
+    "verification/noise/noise96_noise_min.mem": "cf1eed9e40501dfa7001aa58da6212d3fdfb1021e7963764590c7067137a69b7",
+    "verification/noise/noise96_reason_masks.mem": "10ede6e5eb45e2c475b4361ce4f696dee679edf18829f8bde9a767c4f32a64ce",
+    "verification/noise/noise96_valid.mem": "c4f1a9123b374be5647dffb830116ecfa198af632d7baa9922faed1414567cd1"
+  },
+  "input_unchanged": true,
+  "summary": [
+    "# PASS EXPRESSION_NOISE_VARIANT: grid192, 1 scenes, 2352 exact normalized bits, 3 character boxes, raw point removal/ownership/capacity/parser semantics",
+    "# PASS EXPRESSION_NOISE_VARIANT: grid96, 7 scenes, 13328 exact normalized bits, 17 character boxes, raw point removal/ownership/capacity/parser semantics",
+    "# PASS EXPRESSION_NOISE_VARIANT: grid64, 24 scenes, 50960 exact normalized bits, 65 character boxes, raw point removal/ownership/capacity/parser semantics",
+    "# PASS EXPRESSION_NOISE_ALL: every fixture checked"
+  ]
+}
